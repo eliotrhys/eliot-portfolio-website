@@ -1,0 +1,195 @@
+.stats-block { 
+
+    position: relative;
+
+    .html {
+        top: 20vh;
+        left: 40vw;
+    
+        @media (min-width: 768px) { 
+          top: 20vh;
+          left: 40vw;
+        }
+    }
+
+    .css {
+        top: 10vh; 
+        left: 55vw;
+    
+        @media (min-width: 768px) { 
+            top: 10vh; 
+            left: 55vw;
+        }
+    }
+
+    .sass {
+        top: 0vh;
+        left: 10vw;
+    
+        @media (min-width: 768px) { 
+            top: 0vh;
+            left: 30vw;
+        }
+    }
+
+    .bootstrap {
+        top: 30vh; 
+        left: 15vw;
+    
+        @media (min-width: 768px) { 
+            top: 30vh; 
+            left: 20vw;
+        }
+    }
+
+    .tailwind {
+        top: 55vh; 
+        left: 30vw;
+    
+        @media (min-width: 768px) { 
+            top: 55vh; 
+            left: 35vw;
+        }
+    }
+
+    .react {
+        top: 15vh; 
+        left: 5vw;
+    
+        @media (min-width: 768px) { 
+            top: 15vh; 
+            left: 10vw;
+        }
+    }
+
+    .next {
+        top: 30vh; 
+        right: 20vw;
+    
+        @media (min-width: 768px) { 
+            top: 10vh; 
+            right: 20vw;
+        }
+    }
+
+    .javascript {
+        top: 80vh; 
+        left: 50vw;
+    
+        @media (min-width: 768px) { 
+            top: 85vh; 
+            left: 40vw;
+        }
+    }
+
+    .xd {
+        top: 40vh; 
+        right: 80vw;
+    
+        @media (min-width: 768px) { 
+            top: 50vh; 
+            right: 90vw;
+        }
+    }
+
+    .ps {
+        top: 40vh; 
+        left: 75vw;
+    
+        @media (min-width: 768px) { 
+            top: 40vh; 
+            left: 75vw;
+        }
+    }
+
+    .ai {
+        top: 85vh; 
+        right: 60vw;
+    
+        @media (min-width: 768px) { 
+            top: 75vh; 
+            right: 40vw;
+        }
+    }
+
+    .pr {
+        top: 20vh; 
+        left: 70vw;
+    
+        @media (min-width: 768px) { 
+            top: 20vh; 
+            left: 90vw;
+        }
+    }
+
+    .ae {
+        top: 85vh; 
+        right: 5vw;
+    
+        @media (min-width: 768px) { 
+            top: 85vh; 
+            right: 20vw;
+        }
+    }
+
+    .node {
+        top: 75vh; 
+        left: 0vw;
+    
+        @media (min-width: 768px) { 
+            top: 80vh; 
+            left: 20vw;
+        }
+    }
+
+    .typescript {
+        top: 40vh; 
+        right: 40vw;
+    
+        @media (min-width: 768px) { 
+            top: 40vh; 
+            right: 40vw;
+        }
+    }
+
+    .csharp {
+        top: 55vh; 
+        left: 5vw;
+    
+        @media (min-width: 768px) { 
+            top: 55vh; 
+            left: 20vw;
+        }
+    }
+
+    .dotnet {
+        top: 70vh; 
+        right: 15vw;
+    
+        @media (min-width: 768px) { 
+            top: 70vh; 
+            right: 10vw;
+        }
+    }
+
+    .blender {
+        top: 75v; 
+        left: 55vw;
+    
+        @media (min-width: 768px) { 
+            top: 75vh; 
+            left: 5vw;
+        }
+    }
+
+    .unity {
+        top: 65vh; 
+        right: 45vw;
+    
+        @media (min-width: 768px) { 
+            top: 60vh; 
+            right: 25vw;
+        }
+    }
+    
+}
