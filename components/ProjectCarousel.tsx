@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import ProjectDetails from './ProjectDetails';
+// import ProjectDetails from './ProjectDetails';
 
 const settings = {
     centerMode: true,
