@@ -151,7 +151,10 @@ const LangCat: NextPage = () => {
                 <motion.div variants={animationItem}>
                     <Link href="/featherbed">
                         <div className="deep-dive-synopsis mb-10">
-                            <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                            <div className="relative">
+                                <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                <div className="overlay">Read more</div>
+                            </div>
                             <h4 className="title black">Featherbed Tales</h4>
                             <p className="description">Read your kids a bedtime story - wherever you are</p>
                         </div>
@@ -159,9 +162,12 @@ const LangCat: NextPage = () => {
                 </motion.div>
 
                 <motion.div variants={animationItem}>
-                    <Link href="/langcat">
+                    <Link href="/braided">
                         <div className="deep-dive-synopsis mb-10">
-                            <img src="/images/dives/braided.png" className="block mb-3" alt="" />
+                            <div className="relative">
+                                <img src="/images/dives/braided.png" className="block mb-3" alt="" />
+                                <div className="overlay">Read more</div>
+                            </div>
                             <h4 className="title black">Braided Communications</h4>
                             <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
                         </div>
@@ -171,7 +177,7 @@ const LangCat: NextPage = () => {
 
             <div className="mb-20">
                 <Link href="/">
-                    <div className="text-center text-lg cursor-pointer">👈 see the rest</div>
+                    <div className="text-center text-lg cursor-pointer hover:scale-110 ease-in-out">👈 see the rest</div>
                 </Link>
             </div>
         </div>

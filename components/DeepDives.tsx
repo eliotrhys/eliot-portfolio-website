@@ -47,7 +47,10 @@ const DeepDives = () => {
                         <motion.div variants={animationItem}>
                             <Link href="/braided">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
-                                    <img src="/images/dives/braided.png" className="block mb-3" alt="" />
+                                    <div className="relative">
+                                        <img src="/images/dives/braided.png" className="block mb-3" alt="" />
+                                        <div className="overlay">Read more</div>
+                                    </div>
                                     <h4 className="title">Braided Communications</h4>
                                     <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
                                 </div>
@@ -57,7 +60,10 @@ const DeepDives = () => {
                         <motion.div variants={animationItem}>
                             <Link href="/featherbed">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
-                                    <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                    <div className="relative">
+                                        <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                        <div className="overlay">Read more</div>
+                                    </div>
                                     <h4 className="title">Featherbed Tales</h4>
                                     <p className="description">Read your kids a bedtime story - wherever you are</p>
                                 </div>
@@ -67,7 +73,10 @@ const DeepDives = () => {
                         <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
                             <Link href="/langcat">
                                 <div className="deep-dive-synopsis">
-                                    <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                                    <div className="relative">
+                                        <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                                        <div className="overlay">Read more</div>
+                                    </div>
                                     <h4 className="title">The Lang Cat</h4>
                                     <p className="description">Comparison tool for financial advisers choosing mortgage providers</p>
                                 </div>

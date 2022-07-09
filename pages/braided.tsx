@@ -165,7 +165,10 @@ const Braided: NextPage = () => {
                 <motion.div variants={animationItem}>
                     <Link href="/featherbed">
                         <div className="deep-dive-synopsis mb-10">
-                            <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                            <div className="relative">
+                                <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                <div className="overlay">Read more</div>
+                            </div>
                             <h4 className="title black">Featherbed Tales</h4>
                             <p className="description">Read your kids a bedtime story - wherever you are</p>
                         </div>
@@ -175,7 +178,10 @@ const Braided: NextPage = () => {
                 <motion.div variants={animationItem}>
                     <Link href="/langcat">
                         <div className="deep-dive-synopsis mb-10">
-                            <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                            <div className="relative">
+                                <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                                <div className="overlay">Read more</div>
+                            </div>
                             <h4 className="title black">The Lang Cat</h4>
                             <p className="description">Comparison tool for financial advisers choosing mortgage providers</p>
                         </div>
@@ -185,7 +191,7 @@ const Braided: NextPage = () => {
 
             <div className="mb-20">
                 <Link href="/">
-                    <div className="text-center text-lg cursor-pointer">👈 see the rest</div>
+                    <div className="text-center text-lg cursor-pointer hover:scale-110 ease-in-out">👈 see the rest</div>
                 </Link>
             </div>
         </div>
