@@ -140,7 +140,6 @@ const LangCat: NextPage = () => {
                 <div className="subtitle text-center">Read the other Deep Dives 🤿</div>
             </div>
 
-
             <motion.div
                 className="grid grid-cols-1 md:grid-cols-2 gap-5 md:px-0"
                 initial="hidden"
