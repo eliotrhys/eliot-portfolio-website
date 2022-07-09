@@ -52,7 +52,7 @@ const AreasBlock = () => {
                     <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-teal-600">🤖 AI entertainment</a></motion.div>
                 </motion.div>
             </div>
-            <h2 className="subtitle px-4 md:px-0 mb-5 text-center">and even written code being used on the <a href="https://braided.space/" target="_blank" className="area-badge bg-purple-600" style={{marginRight: "0px"}}>International Space Station 👽</a></h2>
+            <h2 className="subtitle px-4 md:px-0 mb-5 text-center">and even written code being used on the <a href="https://braided.space/" target="_blank" rel="noreferrer" className="area-badge bg-purple-600" style={{marginRight: "0px"}}>International Space Station 👽</a></h2>
         </div>
     )
 }

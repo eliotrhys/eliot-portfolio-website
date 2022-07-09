@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
 
 class MyDocument extends Document {
 
@@ -8,13 +7,11 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" type="image/x-icon" href="/images/memoji.png" />
-          <meta name="description" content="Eliot Rhys - Best Dev Ever" />
-          {/* <link rel="stylesheet" href="https://use.typekit.net/jrs6aqd.css" /> */}
+          <meta name="description" content="Eliot Rhys" />
         </Head>
         <body>
           <Main />
           <NextScript />
-          {/* <Script src="https://kit.fontawesome.com/fecd077b7d.js" crossOrigin="anonymous"></Script> */}
         </body>
       </Html>
     )
