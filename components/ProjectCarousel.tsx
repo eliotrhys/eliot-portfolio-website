@@ -42,7 +42,10 @@ const ProjectCarousel = () => {
         <div className="mb-10 md:mb-20">
             <div className="mb-10">
                 <h2 className="subtitle text-center">Some recent mockups</h2>
-                <div className="text-lg text-slate-500 text-center">Adobe XD, Desktop, 1920 x 1080</div>
+                <div className="text-lg text-slate-500 text-center mb-3">Adobe XD, Desktop, 1920 x 1080</div>
+                <div className="text-center">
+                    <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-2 text-center text-bold mx-auto justify-center">👷🏻‍♂️ Section under construction 🚧</div>
+                </div>
             </div>
             
 

@@ -151,7 +151,7 @@ const PersonalStuff = () => {
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
 
                 <div>
-                    <img src="/images/eliot.png" className="h-64 mx-auto rounded-full mb-10" alt="" />
+                    <img src="/images/eliot.png" className="h-48 md:h-64 mx-auto rounded-lg rotate-[16deg] mb-20" alt="" />
                 </div>
 
                 <h2 className="subtitle text-center mb-20">A little about me</h2>
