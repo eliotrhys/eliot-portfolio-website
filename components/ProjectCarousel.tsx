@@ -61,8 +61,8 @@ const ProjectCarousel = () => {
                     >
                     {
                         portfolioItems.map((item) => (
-                            <motion.div variants={animationItem}>
-                                <div className="portfolio-grid-item" key={item.id}>
+                            <motion.div variants={animationItem} key={item.id}>
+                                <div className="portfolio-grid-item">
                                     <div className="p-4">
                                         <img src={item.url} className="mx-auto rounded-md drop-shadow-lg rounded-md" alt="" />
                                         <div className="p-4">
