@@ -39,13 +39,13 @@ const AreasBlock = () => {
                 >
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://langcatfinancial.co.uk/" target="_blank" rel="noreferrer" className="area-badge bg-emerald-600">💰 finance</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://acornwellbeing.io" target="_blank" rel="noreferrer" className="area-badge bg-lime-600">💊 pharmaceuticals</a></motion.div>
-                    <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-orange-600">👷🏻‍♂️ construction</a></motion.div>
+                    <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/SocialConnections" target="_blank" rel="noreferrer" className="area-badge bg-orange-600">👩‍🔬 research</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://fanbaseclub.com/" target="_blank" rel="noreferrer" className="area-badge bg-slate-600">⚽️ sports</a></motion.div>
-                    <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-red-600">✈️ travel</a></motion.div>
+                    <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/StaffmetrixGenderPayGapUK" target="_blank" rel="noreferrer" className="area-badge bg-red-600">📈 data vis</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://www.youk.co/" target="_blank" rel="noreferrer" className="area-badge bg-blue-600">🛍 ecommerce</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://featherbedtales.com/" target="_blank" rel="noreferrer" className="area-badge bg-cyan-600">👶🏻 children's books</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://biscuittin.co.uk/" target="_blank" rel="noreferrer" className="area-badge bg-yellow-600">⚰️ estate management</a></motion.div>
-                    <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-fuchsia-600">🏍 motoring</a></motion.div>
+                    <motion.div variants={animationItem} className="inline-flex"><a href="https://speedcheetah.com/" target="_blank" rel="noreferrer" className="area-badge bg-fuchsia-600">🏍 motoring</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-sky-600">💬 social networks</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/Rockifi" target="_blank" rel="noreferrer" className="area-badge bg-zinc-600">🎸 music</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-rose-600">🕹 gaming</a></motion.div>

@@ -91,7 +91,7 @@ const Braided: NextPage = () => {
 
                 <p className="text-xl md:text-2xl md:leading-10 mb-8">Essentially, splitting up a conversation into set topics, assigning a set time to each of those topics, and then automatically loading the next topic of a conversation. These conversation topics would spin in a <strong>"Carousel"</strong> of sorts, which would automatically rotate at the end of the allotted time.</p>
 
-                <p className="text-xl md:text-2xl md:leading-10 mb-8">Using this unqiue method of communication, you removed the feeling of "dead time" between responses, not necessarily tricking your brain into thinking you're having a synchronous conversation, but allowing your focus to naturally move to the next topic as you are never waiting for the other person to send back their response.</p>
+                <p className="text-xl md:text-2xl md:leading-10 mb-8">Using this unique method of communication, you removed the feeling of "dead time" between responses, not necessarily tricking your brain into thinking you're having a synchronous conversation, but allowing your focus to naturally move to the next topic as you are never waiting for the other person to send back their response.</p>
 
 
                 <p className="text-xl md:text-2xl md:leading-10 mb-8">When they came to us with this concept, I knew we were going to be able to build something really special.</p>
@@ -108,7 +108,7 @@ const Braided: NextPage = () => {
 
                 <p className="text-xl md:text-2xl md:leading-10 mb-8">The Braided team came from an Academic and Scientific background, and had a huge focus on usability and functionality. However this was meant to be a general purpose design for people of all specialties, and fall within the natural language of app design too. There was an existing early prototype of the application, but the design lacked understanding of screen space and language of modern communication apps.</p>
 
-                <p className="text-xl md:text-2xl md:leading-10 mb-8">We needed to turn their vision into something people would instinctually know how to use.</p>
+                <p className="text-xl md:text-2xl md:leading-10 mb-8">We needed to turn their vision into something people would instinctively know how to use.</p>
 
                 <div className="mb-10">
                     <img src="/images/braided/braided-login.png" className="block mx-auto" alt="A custom gift-card graphic I made for the interface" />

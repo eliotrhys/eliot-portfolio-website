@@ -95,8 +95,9 @@ a {
 }
 
 .stats-container {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5a1f0053b07869a7e6649ee7/1518792226859-XEZTS7B6IQ3IRZT4IJUJ/Grid-half-BLUE.png?format=2500w");
+  background-image: url("/images/bluegrid.png");
   background-size: contain;
+  overflow-x: hidden;
 }
 
 .stats-block .stats-header {
@@ -231,8 +232,6 @@ a {
 }
 
 .slider-item {
-  height: 300px;
-  font-size: 60px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   margin: 1rem;
@@ -246,6 +245,25 @@ a {
 
 .slider-item .title {
   font-size: 40px;
+}
+
+.portfolio-grid-item {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.portfolio-grid-item .title {
+  font-size: 18px;
+}
+
+.portfolio-grid-item .description {
+  font-size: 16px;
+}
+
+.portfolio-grid-item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
 }
 
 .deep-dive-synopsis {
@@ -448,8 +466,6 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
-  min-width: 100vw;
-  min-height: 100vh;
 }
 
 .full-page-video-content {
@@ -479,5 +495,24 @@ a {
 
 .eliot-shadow {
   text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%;
+}
+
+.embla__slide {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  background-color: red;
 }
 /*# sourceMappingURL=globals.css.map */

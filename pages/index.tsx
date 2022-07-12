@@ -18,15 +18,15 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <div className="full-page-container bg-cover bg-no-repeat" style={{backgroundImage: "url(/images/designgrid.svg)"}}>
+      <div className="full-page-container bg-cover bg-no-repeat bg-black">
         <motion.div 
           animate={{ opacity: [0, 1], y: [-800, 0]} } 
           transition={{ type: "spring", bounce: 0.4, duration: 0.8 }}>
           <div>
             <div>
-              <video width="600" autoPlay loop muted style={{mixBlendMode: "screen"}}>
-                <source src="https://eliot.eu-central-1.linodeobjects.com/emojimovie.mp4" type="video/mp4" />
-                <source src="https://eliot.eu-central-1.linodeobjects.com/emojimovie.webm" type="video/webm" />
+              <video width="800" autoPlay loop muted>
+                <source src="https://eliot.eu-central-1.linodeobjects.com/mgm.mp4" type="video/mp4" />
+                <source src="https://eliot.eu-central-1.linodeobjects.com/mgm.webm" type="video/webm" />
               </video>
             </div>
             {/* <img src="/images/memoji.png" className="h-60 md:h-96" /> */}
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
 
       <StatsBlock />
 
-      {/* <ProjectCarousel /> */}
+      <ProjectCarousel />
 
       <DeepDives />
 

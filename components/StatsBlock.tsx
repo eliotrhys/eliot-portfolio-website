@@ -32,7 +32,7 @@ const StatsBlock = () => {
     }
 
     return (
-        <div className="stats-container">
+        <div className="stats-container mb-10 md:mb-20">
             <div className="stats-block flex justify-center pt-10">
                 <h2 className="subtitle mb-10 stats-header inline-flex text-center mt-5">Stuff I'm good at</h2>
             </div>

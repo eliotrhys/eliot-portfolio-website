@@ -33,7 +33,7 @@ const DeepDives = () => {
             <div className="container mx-auto mb-10">
                 <div className="mb-10">
                     <h2 className="text-white subtitle text-center">Deep dives 🤿</h2>
-                    <div className="text-xl text-gray-300 text-center mb-10">Take a dip into the details...</div>
+                    <div className="text-xl text-center mb-10" style={{color: "#acc4ff"}}>Take a dip into the details...</div>
                 </div>
                 
                 <div>

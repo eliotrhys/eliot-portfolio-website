@@ -8,6 +8,7 @@ import remoteWork from '../public/images/womanlaptop.jpg'
 import floatingCities from '../public/images/floatingcity.jpg'
 import greenSpaces from '../public/images/greenspaces.jpg'
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const PersonalStuff = () => {
 
@@ -77,7 +78,7 @@ const PersonalStuff = () => {
 
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div>
-                            <div className="bitty-text rotate-6 text-center md:text-left">fun, quirky design</div>
+                            <div className="bitty-text rotate-6 text-center md:text-left">fun, quirky, functional design</div>
                         </div>
                     </motion.div>
                 </motion.div>
@@ -121,7 +122,8 @@ const PersonalStuff = () => {
 
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div>
-                            <div className="bitty-text rotate-6 text-center md:text-left">remote work & async</div>
+                            <div className="bitty-text rotate-6 text-center md:text-left">remote work</div>
+                            <div className="rotate-6 text-center md:text-left text-gray-400 text-sm">(stock photo used for comedic effect, I don't steal stock photos)</div>
                         </div>
                     </motion.div>
                 </motion.div>
@@ -147,6 +149,11 @@ const PersonalStuff = () => {
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
+
+                <div>
+                    <img src="/images/eliot.png" className="h-64 mx-auto rounded-full mb-10" alt="" />
+                </div>
+
                 <h2 className="subtitle text-center mb-20">A little about me</h2>
 
                 <motion.div
@@ -182,7 +189,11 @@ const PersonalStuff = () => {
                         <div>Play in a terrible band</div>
                     </motion.div>
                 </motion.div>
+            </div>
 
+            <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
+                <h2 className="text-center text-4xl mb-5">🦕</h2>
+                <h2 className="text-center text-3xl leading-10">I've been working at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years and I'm looking for a new opportunity, to learn, improve and make something cool!</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto mb-20">
