@@ -215,9 +215,15 @@ const PersonalStuff = () => {
                         <div className="yilon-block"></div>
                     </motion.div>
                 </motion.div>
-                <div className="bitty-text text-center">...aaaaand thats about it</div>
+                <div className="bitty-text text-center">... jokes aside that's about it!</div>
             </div>
-            
+
+            <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
+                <h2 className="mb-5">
+                    <img src="/images/github.png" className="h-24 mx-auto" alt="" />
+                </h2>
+                <h2 className="text-center text-3xl leading-10">You can see my code examples on <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">my Github</a></h2>
+            </div>
         </div>
     )
 }
