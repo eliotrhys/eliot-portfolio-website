@@ -193,7 +193,7 @@ const PersonalStuff = () => {
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="text-center text-4xl mb-5">🦕</h2>
-                <h2 className="text-center text-3xl leading-10">I've been working at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years and I'm looking for a new opportunity, to learn, improve and make something cool!</h2>
+                <h2 className="text-center text-3xl leading-10">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years, freelanced for 1 more and I'm now looking for a new opportunity, to learn, improve and make cool stuff!</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto mb-20">

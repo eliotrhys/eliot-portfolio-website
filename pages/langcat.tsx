@@ -122,7 +122,7 @@ const LangCat: NextPage = () => {
                     <source src="https://eliot.eu-central-1.linodeobjects.com/langcat-anim.webm" type="video/webm" />
                     <source src="https://eliot.eu-central-1.linodeobjects.com/langcat-anim.mp4" type="video/mp4" />
                 </video>
-                <div className="text-center text-gray-500 font-regular mt-5">The working carousel! Nothing included that isn't 100% necessary.</div>
+                <div className="text-center text-gray-500 font-regular mt-5">Animation of the primary user flow.</div>
             </div>
 
             <div className="mb-20">
