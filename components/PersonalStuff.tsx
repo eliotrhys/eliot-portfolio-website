@@ -94,7 +94,7 @@ const PersonalStuff = () => {
                     >
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div>
-                            <div className="bitty-text -rotate-6 text-center md:text-left">all things web3, crypto and decentralisation</div>
+                            <div className="bitty-text -rotate-6 text-center md:text-left">all things web3 and crypto, generative AI, decentralisation and music tech history</div>
                         </div>
                     </motion.div>
 
@@ -122,7 +122,7 @@ const PersonalStuff = () => {
 
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div>
-                            <div className="bitty-text rotate-6 text-center md:text-left">remote work</div>
+                            <div className="bitty-text rotate-6 text-center md:text-left">remote / hybrid work</div>
                             <div className="rotate-6 text-center md:text-left text-gray-400 text-sm">(stock photo used for comedic effect, I don't steal stock photos)</div>
                         </div>
                     </motion.div>
@@ -130,7 +130,7 @@ const PersonalStuff = () => {
             </div>
 
             <div className="container w-3/4 lg:w-2/3 mx-auto text-center mb-20">
-                <div className="bitty-text mb-0 md:mb-20">also randomly on a hyperfixation about <span>‘seasteading’</span> and walkable cities</div>
+                <div className="bitty-text mb-0 md:mb-20">also randomly down a rabbit hole about <span>‘seasteading’</span> and urban planning / walkable cities</div>
 
                 <motion.div
                     className="grid grid-cols-2 md:grid-cols-3 mb-20" 
@@ -154,10 +154,10 @@ const PersonalStuff = () => {
                     <img src="/images/eliot.png" className="h-48 md:h-64 mx-auto rounded-lg rotate-[16deg] mb-20" alt="" />
                 </div>
 
-                <h2 className="subtitle text-center mb-20">A little about me</h2>
+                <h2 className="subtitle text-center mb-20">About me in 9 bullet points</h2>
 
                 <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 gap-16" 
+                    className="grid grid-cols-2 md:grid-cols-3 gap-16" 
                     initial="hidden"
                     variants={variants}
                     whileInView="showing"
@@ -173,16 +173,28 @@ const PersonalStuff = () => {
                         <div>Currently based in Edinburgh</div>
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
+                        <div className="text-6xl mb-5">󠁧󠁢󠁥󠁮󠁧🎨</div> 
+                        <div>Almost 5 years design experience</div>
+                    </motion.div>
+                    <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
                         <div className="text-6xl mb-5">󠁧󠁢󠁥󠁮󠁧🤓</div> 
-                        <div>Side project addict</div>
+                        <div>Side project coding addict</div>
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
                         <div className="text-6xl mb-5">👍🏻</div> 
-                        <div>Easy for clients to talk to</div>
+                        <div>Good speaker, client friendly</div>
+                    </motion.div>
+                    <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
+                        <div className="text-6xl mb-5">🎓</div> 
+                        <div>CodeClan graduate (2019)</div>
+                    </motion.div>
+                    <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
+                        <div className="text-6xl mb-5">🧑‍🎨</div> 
+                        <div>Creative generalist</div>
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
                         <div className="text-6xl mb-5">🚵‍♂️</div> 
-                        <div>Avid Bikepacker</div>
+                        <div>Occasional Bikepacker</div>
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-4xl text-center">
                         <div className="text-6xl mb-5">🎸</div> 
@@ -193,7 +205,7 @@ const PersonalStuff = () => {
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="text-center text-4xl mb-5">🦕</h2>
-                <h2 className="text-center text-3xl leading-10">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years, freelanced for 1 more and I'm now looking for a new opportunity, to learn, improve and make cool stuff!</h2>
+                <h2 className="text-center text-3xl leading-10">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years, freelanced and worked contracts for 1 more year and I'm now looking for a new opportunity, to learn, to design and to make cool stuff!</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto mb-20">
@@ -206,8 +218,8 @@ const PersonalStuff = () => {
                     >
                     <motion.div variants={animationItem} className="flex items-center justify-end">
                         <div className="testimonial-block -mr-5 md:-mr-20 relative z-10">
-                            <div>Eliot is lowkey great at coding fr fr</div>
-                            <div className="text-right text-blue-400">~ Bill Gates</div>
+                            <div>Eliot is lowkey great at coding and design fr fr</div>
+                            <div className="text-right text-blue-400">~ Gen Z Bill Gates</div>
                             <div className="quotation-mark">“</div>
                         </div>
                     </motion.div>
@@ -215,14 +227,14 @@ const PersonalStuff = () => {
                         <div className="yilon-block"></div>
                     </motion.div>
                 </motion.div>
-                <div className="bitty-text text-center">... jokes aside that's about it!</div>
+                <div className="bitty-text text-center">... silliness aside, that's about it!</div>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="mb-5">
                     <img src="/images/github.png" className="h-24 mx-auto" alt="" />
                 </h2>
-                <h2 className="text-center text-3xl leading-10">You can see my code examples on <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">my Github</a></h2>
+                <h2 className="text-center text-3xl leading-10">You can see some code examples on <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">my Github</a></h2>
             </div>
         </div>
     )

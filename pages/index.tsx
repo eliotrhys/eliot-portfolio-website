@@ -38,7 +38,13 @@ const Home: NextPage = () => {
           transition={{ duration: 1 }}
         >
           <div className="text-center">
-            <h1 className="main-title text-white mb-5">Hi, I'm <span>Eliot.</span></h1>
+            <div className="mb-8">
+              <h1 className="main-title text-white mb-0">Hi, I'm <span>Eliot.</span></h1>
+              <h2 className="text-white text-xl mb-0">
+                <span className="text-orange-300">UX Designer</span> | <span className="text-purple-300">Full Stack Dev</span> | <span className="text-green-300">Creative Multi-Tool</span>
+              </h2>
+            </div>
+            
             <div>
               <div className="text-extrabold text-white mb-4">scroll down</div>
               <div className="text-4xl finger-down">👇</div>

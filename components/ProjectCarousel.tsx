@@ -5,8 +5,6 @@ import { motion } from 'framer-motion';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-
-
 const variants = {
     hidden: { opacity: 0 },
     showing: {
@@ -33,25 +31,47 @@ const ProjectCarousel = () => {
 
     const [open, setOpen] = useState(false);
     const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedIndex, setSelectedIndex] = useState(0);
     const [mobileOpen, setMobileOpen] = useState(false);
     const [mobileSelectedItem, setMobileSelectedItem] = useState(null);
+    const [mobileSelectedIndex, setMobileSelectedIndex] = useState(0);
 
-
-    const handleItemClick = (item: any) => {
+    const handleItemClick = (item: any, index: number) => {
         setSelectedItem(item);
+        setSelectedIndex(index);
         setOpen(true);
     };
 
-    const handleMobileItemClick = (item: any) => {
+    const handleMobileItemClick = (item: any, index: number) => {
         setMobileSelectedItem(item);
+        setMobileSelectedIndex(index);
         setMobileOpen(true);
+    };
+
+    const handleLightboxArrowClick = (direction) => {
+        const newIndex = direction === "next" ? selectedIndex + 1 : selectedIndex - 1;
+        if (newIndex >= 0 && newIndex < portfolioItems.length) {
+          setSelectedItem(portfolioItems[newIndex]);
+          setSelectedIndex(newIndex);
+        }
+    };
+
+    const handleMobileLightboxArrowClick = (direction) => {
+        const newIndex = direction === "next" ? mobileSelectedIndex + 1 : mobileSelectedIndex - 1;
+        if (newIndex >= 0 && newIndex < mobilePortfolioItems.length) {
+          setSelectedMobileItem(mobilePortfolioItems[newIndex]);
+          setSelectedMobileIndex(newIndex);
+        }
     };
 
     const portfolioItems = [
         { id: 1, title: "An Optimistic Future", vibe: "Futuristic", description: "Landing page mockup for a personal writing project", url: "/images/projects/optimistic.png" },
         { id: 2, title: "Emoji Royale", vibe: "Pulpy", description: "Competitive emoji guessing game", url: "/images/projects/emojiroyale.png" },
+        { id: 10, title: "BT Sport (Unofficial)", vibe: "Professional", description: "Fun remix I did of BT Sports after a frustrating real life use case", url: "/images/projects/btsport.jpg" },
         { id: 3, title: "100 Men All Men Should Know", vibe: "Sophisticated", description: "List of 100 Men who achieved great things but are relatively unknown to the public", url: "/images/projects/100men.png" },
         { id: 4, title: "Featherbed Tales", vibe: "Fun", description: "Online self-recording service for children's stories", url: "/images/featherbed/featherbedtemp.jpg" },
+        { id: 11, title: "Logistics.io", vibe: "Professional", description: "Whitelabelled logistics solution design", url: "/images/projects/logisticsio.jpg" },
+        { id: 12, title: "Screenwriting", vibe: "Quirky", description: "Concept for a component-based scriptwriting tool", url: "/images/projects/screenwriting.jpg" },
         { id: 5, title: "YouK", vibe: "Clean", description: "An online marketplace for goods made in the UK", url: "/images/projects/youk.png" },
         { id: 6, title: "arbnco", vibe: "Data Visualisation", description: "Dashboard for carbon emissions and air quality", url: "/images/projects/arbnco.png" },
         { id: 7, title: "Lifereel", vibe: "Crunchy", description: "Record documentaries about your family members", url: "/images/projects/lifereel.png" },
@@ -60,9 +80,9 @@ const ProjectCarousel = () => {
     ];
 
     const mobilePortfolioItems = [
-        { id: 1, title: "BadgeLife", vibe: "Exploratory", description: "Dashboard with badges", url: "/images/projects/badgelife/dashboard.png" },
-        { id: 2, title: "BadgeLife", vibe: "Exploratory", description: "Profile with badges", url: "/images/projects/badgelife/profile.png" },
-        { id: 3, title: "BadgeLife", vibe: "Exploratory", description: "Onboarding splash screen", url: "/images/projects/badgelife/welcome.png" },
+        { id: 1, title: "BadgeLife", vibe: "Exploratory", description: "Onboarding splash screen", url: "/images/projects/badgelife/welcome.png" },
+        { id: 2, title: "BadgeLife", vibe: "Exploratory", description: "Dashboard with badges", url: "/images/projects/badgelife/dashboard.png" },
+        { id: 3, title: "BadgeLife", vibe: "Exploratory", description: "Profile with badges", url: "/images/projects/badgelife/profile.png" },
         { id: 4, title: "PD Tracker", vibe: "Crunchy", description: "Parkinson's Tracker App splash screen", url: "/images/projects/pd_tracker/splash.png" },
         { id: 5, title: "PD Tracker", vibe: "Crunchy", description: "Parkinson's Tracker App capture screen", url: "/images/projects/pd_tracker/capture.png" },
         { id: 6, title: "PD Tracker", vibe: "Crunchy", description: "Parkinson's Tracker App emoji-based checkup", url: "/images/projects/pd_tracker/checkup.png" },
@@ -83,27 +103,31 @@ const ProjectCarousel = () => {
             <Lightbox
                 open={open}
                 close={() => setOpen(false)}
-                slides={[{ src: selectedItem?.url }]}
+                currentIndex={selectedIndex}
+                slides={portfolioItems.map((item) => ({ src: item.url }))}
+                onArrowClick={handleLightboxArrowClick}
             />
 
             <Lightbox
                 open={mobileOpen}
                 close={() => setMobileOpen(false)}
-                slides={[{ src: mobileSelectedItem?.url }]}
+                currentIndex={mobileSelectedIndex}
+                slides={mobilePortfolioItems.map((item) => ({ src: item.url }))}
+                onArrowClick={handleMobileLightboxArrowClick}
             />
 
             <div className="container mx-auto">
 
                 <motion.div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-4 md:px-0"
+                        className="grid grid-cols-1 md:grid-cols-2 gap-5 px-4 md:px-0"
                         initial="hidden"
                         variants={variants}
                         whileInView="showing"
                         viewport={{ once: true }}
                     >
                     {
-                        portfolioItems.map((item) => (
-                            <motion.div variants={animationItem} key={item.id} onClick={() => handleItemClick(item)}>
+                        portfolioItems.map((item, index) => (
+                            <motion.div variants={animationItem} key={item.id} onClick={() => handleItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="p-4">
                                         <img src={item.url} className="mx-auto rounded-md drop-shadow-lg rounded-md" alt="" />
@@ -132,8 +156,8 @@ const ProjectCarousel = () => {
                         viewport={{ once: true }}
                     >
                     {
-                        mobilePortfolioItems.map((item) => (
-                            <motion.div variants={animationItem} key={item.id} onClick={() => handleMobileItemClick(item)}>
+                        mobilePortfolioItems.map((item, index) => (
+                            <motion.div variants={animationItem} key={item.id} onClick={() => handleMobileItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="p-4">
                                         <img src={item.url} className="mx-auto rounded-md drop-shadow-lg rounded-md" alt="" />
@@ -148,11 +172,7 @@ const ProjectCarousel = () => {
                         ))
                     }
                 </motion.div>
-
             </div>
-
-
-       
               
       </div>
     )
