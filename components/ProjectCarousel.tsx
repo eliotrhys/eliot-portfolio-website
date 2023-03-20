@@ -92,8 +92,23 @@ const ProjectCarousel = () => {
 
     return (
         <div className="mb-10 md:mb-20">
+
             <div className="mb-10">
-                <h2 className="subtitle text-center">Some recent mockups</h2>
+                <h2 className="subtitle text-center">Most recent coding project</h2>
+                <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
+
+                <div className="mb-5">
+                    <a target="_blank" href="https://www.triviamoji.com">
+                        <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto hover:scale-105 ease-in-out duration-100" alt="" />
+                    </a>
+                </div>
+                <div className="w-full md:w-1/2 mx-auto px-4">
+                    <h2 className="text-center text-lg md:text-xl md:leading-10">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion. Full breakdown coming soon!</h2>
+                </div>
+            </div>
+
+            <div className="mb-10">
+                <h2 className="subtitle text-center">Some recent UI mockups</h2>
                 <div className="text-lg text-slate-500 text-center mb-3">Adobe XD, Desktop & Mobile</div>
                 <div className="text-center">
                     <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-2 text-center text-bold mx-auto justify-center">👷🏻‍♂️ This section under construction 🚧</div>

@@ -232,6 +232,13 @@ const PersonalStuff = () => {
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="mb-5">
+                    <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto" alt="" />
+                </h2>
+                <h2 className="text-center text-3xl leading-10">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</h2>
+            </div>
+
+            <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
+                <h2 className="mb-5">
                     <img src="/images/github.png" className="h-24 mx-auto" alt="" />
                 </h2>
                 <h2 className="text-center text-3xl leading-10">You can see some code examples on <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">my Github</a></h2>
