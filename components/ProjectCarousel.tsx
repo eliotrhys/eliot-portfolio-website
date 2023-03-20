@@ -98,7 +98,7 @@ const ProjectCarousel = () => {
                 <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
 
                 <div className="mb-5">
-                    <a target="_blank" href="https://www.triviamoji.com">
+                    <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com">
                         <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto hover:scale-105 ease-in-out duration-100" alt="" />
                     </a>
                 </div>
