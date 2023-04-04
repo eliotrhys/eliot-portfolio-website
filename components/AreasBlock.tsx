@@ -38,7 +38,7 @@ const AreasBlock = () => {
                     viewport={{ once: true }}
                 >
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://langcatfinancial.co.uk/" target="_blank" rel="noreferrer" className="area-badge bg-emerald-600">💰 finance</a></motion.div>
-                    <motion.div variants={animationItem} className="inline-flex"><a href="https://acornwellbeing.io" target="_blank" rel="noreferrer" className="area-badge bg-lime-600">💊 pharmaceuticals</a></motion.div>
+                    <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/Acorn" target="_blank" rel="noreferrer" className="area-badge bg-lime-600">💊 pharmaceuticals</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/SocialConnections" target="_blank" rel="noreferrer" className="area-badge bg-orange-600">👩‍🔬 research</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://fanbaseclub.com/" target="_blank" rel="noreferrer" className="area-badge bg-slate-600">⚽️ sports</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/StaffmetrixGenderPayGapUK" target="_blank" rel="noreferrer" className="area-badge bg-red-600">📈 data vis</a></motion.div>
@@ -48,7 +48,7 @@ const AreasBlock = () => {
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://speedcheetah.com/" target="_blank" rel="noreferrer" className="area-badge bg-fuchsia-600">🏍 motoring</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-sky-600">💬 social networks</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://www.baddinosaur.co.uk/Portfolio/Rockifi" target="_blank" rel="noreferrer" className="area-badge bg-zinc-600">🎸 music</a></motion.div>
-                    <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-rose-600">🕹 gaming</a></motion.div>
+                    <motion.div variants={animationItem} className="inline-flex"><a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="area-badge bg-rose-600">🕹 gaming</a></motion.div>
                     <motion.div variants={animationItem} className="inline-flex"><a href="" target="_blank" rel="noreferrer" className="area-badge bg-teal-600">🤖 AI entertainment</a></motion.div>
                 </motion.div>
             </div>

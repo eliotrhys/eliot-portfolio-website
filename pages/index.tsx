@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <div className="full-page-container bg-cover bg-no-repeat bg-black mb-10 md:mb-20">
+      <div className="full-page-container bg-cover bg-no-repeat bg-black">
         <motion.div 
           animate={{ opacity: [0, 1], y: [-800, 0]} } 
           transition={{ type: "spring", bounce: 0.4, duration: 0.8 }}>
@@ -52,6 +52,7 @@ const Home: NextPage = () => {
           </div>
         </motion.div>
       </div>
+      <div className="zig-zag-bottom mb-10 md:mb-20"></div>
 
       <div className="container mx-auto">
         <HeroBlock />
