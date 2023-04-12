@@ -18,20 +18,7 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <div className="full-page-container bg-cover bg-no-repeat bg-black">
-        <motion.div 
-          animate={{ opacity: [0, 1], y: [-800, 0]} } 
-          transition={{ type: "spring", bounce: 0.4, duration: 0.8 }}>
-          <div>
-            <div>
-              <video width="800" autoPlay loop muted>
-                <source src="https://eliot.eu-central-1.linodeobjects.com/mgm.mp4" type="video/mp4" />
-                <source src="https://eliot.eu-central-1.linodeobjects.com/mgm.webm" type="video/webm" />
-              </video>
-            </div>
-            {/* <img src="/images/memoji.png" className="h-60 md:h-96" /> */}
-          </div>
-        </motion.div>
+      <div className="half-page-container bg-cover bg-no-repeat">
 
         <motion.div 
           animate={{ opacity: [0, 1] }} 
@@ -39,20 +26,41 @@ const Home: NextPage = () => {
         >
           <div className="text-center">
             <div className="mb-8">
-              <h1 className="main-title text-white mb-0">Hi, I'm <span>Eliot.</span></h1>
-              <h2 className="text-white text-xl mb-0">
-                <span className="text-orange-300">UX Designer</span> | <span className="text-purple-300">Full Stack Dev</span> | <span className="text-green-300">Creative Multi-Tool</span>
-              </h2>
+              <div className="flex flex-wrap justify-center items-center md:justify-start mb-4">
+                <div className="mr-4 md:mr-8 image-gradient border-4 md:border-8 border-black p-4">
+                  <img src="/images/eliotALT.png" className="border-4 md:border-8 border-black w-20 md:w-40  rounded-full" alt="Eliot Rhys Image" />
+                </div>
+                <div className="text-center md:text-left">
+                  <div className="flex justify-center md:justify-start">
+                    <h1 className="main-title mb-0 mr-3">Hi, I'm</h1>
+                    <h1 className="main-title highlight">
+                      <span>E</span>
+                      <span>l</span>
+                      <span>i</span>
+                      <span>o</span>
+                      <span className="mr-3">t</span>
+                      <span>R</span>
+                      <span>h</span>
+                      <span>y</span>
+                      <span>s</span>
+                      <span>.</span>
+                    </h1>
+                  </div>
+                  <h2 className="text-lg text-xl mb-0">
+                    <span className="text-orange-500">🎨 UX/UI Designer</span> | <span className="text-purple-500">👨🏻‍💻 Full Stack Dev</span> | <span className="text-green-500">🤩 Creative</span>
+                  </h2>
+                </div>
+              </div>
             </div>
             
             <div>
-              <div className="text-extrabold text-white mb-4">scroll down</div>
+              <div className="text-extrabold mb-4">scroll down</div>
               <div className="text-4xl finger-down">👇</div>
             </div>
           </div>
         </motion.div>
       </div>
-      <div className="zig-zag-bottom mb-10 md:mb-20"></div>
+      {/* <div className="zig-zag-bottom mb-10 md:mb-20"></div> */}
 
       <div className="container mx-auto">
         <HeroBlock />
@@ -61,9 +69,9 @@ const Home: NextPage = () => {
 
       <StatsBlock />
 
-      <ProjectCarousel />
-
       <DeepDives />
+
+      <ProjectCarousel />
 
       <PersonalStuff />
 

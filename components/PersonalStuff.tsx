@@ -205,7 +205,7 @@ const PersonalStuff = () => {
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="text-center text-4xl mb-5">🦕</h2>
-                <h2 className="text-center text-3xl leading-10">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years, freelanced and worked contracts for 1 more year and I'm now looking for a new opportunity, to learn, to design and to make cool stuff!</h2>
+                <h2 className="text-center text-xl md:text-3xl leading-10">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 and a bit years, freelanced and worked contracts for 1 more year and I'm now looking for a new opportunity, to learn, to design and to make cool stuff!</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto mb-20">
@@ -219,7 +219,7 @@ const PersonalStuff = () => {
                     <motion.div variants={animationItem} className="flex items-center justify-end">
                         <div className="testimonial-block -mr-5 md:-mr-20 relative z-10">
                             <div>Eliot is lowkey great at coding and design fr fr</div>
-                            <div className="text-right text-blue-400">~ Gen Z Bill Gates</div>
+                            <div className="text-right text-blue-400">~ Elon Musk?</div>
                             <div className="quotation-mark">“</div>
                         </div>
                     </motion.div>
@@ -234,7 +234,7 @@ const PersonalStuff = () => {
                 <h2 className="mb-5">
                     <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto" alt="" />
                 </h2>
-                <h2 className="text-center text-3xl leading-10">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</h2>
+                <h2 className="text-center text-xl md:text-3xl leading-10">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">

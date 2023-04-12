@@ -32,7 +32,7 @@ const DeepDives = () => {
             <div className="absolute right-2/4 left-2/4 -ml-8 md:-ml-16 -bottom-5 md:-bottom-10 text-6xl md:text-9xl rotate-[30deg]">🦀</div>
             <div className="container mx-auto mb-10">
                 <div className="mb-10">
-                    <h2 className="text-white subtitle text-center">Deep dives 🤿</h2>
+                    <h2 className="text-white subtitle text-center">UX deep dives 🤿</h2>
                     <div className="text-xl text-center mb-10" style={{color: "#acc4ff"}}>Take a dip into the details...</div>
                 </div>
                 

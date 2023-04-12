@@ -66,7 +66,7 @@ const HeroBlock = () => {
                     viewport={{ once: true, amount: 0.8}}
                     variants={firstLineVariants}
                 >
-                    <h2 className="subtitle mb-10">I’m a web UI/UX designer… 🎨</h2>
+                    <h2 className="subtitle mb-10">I’m a UI/UX designer… 🎨</h2>
                 </motion.div>
 
                 <motion.div
