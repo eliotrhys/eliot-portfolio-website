@@ -65,17 +65,17 @@ const ProjectCarousel = () => {
     };
 
     const portfolioItems = [
-        { id: 1, title: "An Optimistic Future", vibe: "Futuristic", description: "Landing page mockup for a personal writing project", url: "/images/projects/optimistic.png" },
+        { id: 1, title: "An Optimistic Future", vibe: "Futuristic", description: "Landing page mockup for a personal writing project", url: "/images/projects/optimistic.jpg" },
         { id: 2, title: "Emoji Royale", vibe: "Pulpy", description: "Competitive emoji guessing game", url: "/images/projects/emojiroyale.png" },
         { id: 10, title: "BT Sport (Unofficial)", vibe: "Professional", description: "Fun remix I did of BT Sports after a frustrating real life use case", url: "/images/projects/btsport.jpg" },
         { id: 3, title: "100 Men All Men Should Know", vibe: "Sophisticated", description: "List of 100 Men who achieved great things but are relatively unknown to the public", url: "/images/projects/100men.png" },
         { id: 4, title: "Featherbed Tales", vibe: "Fun", description: "Online self-recording service for children's stories", url: "/images/featherbed/featherbedtemp.jpg" },
         { id: 11, title: "Logistics.io", vibe: "Professional", description: "Whitelabelled logistics solution design", url: "/images/projects/logisticsio.jpg" },
         { id: 12, title: "Screenwriting", vibe: "Quirky", description: "Concept for a component-based scriptwriting tool", url: "/images/projects/screenwriting.jpg" },
-        { id: 5, title: "YouK", vibe: "Clean", description: "An online marketplace for goods made in the UK", url: "/images/projects/youk.png" },
+        { id: 5, title: "YouK", vibe: "Clean", description: "An online marketplace for goods made in the UK", url: "/images/projects/youk.jpg" },
         { id: 6, title: "arbnco", vibe: "Data Visualisation", description: "Dashboard for carbon emissions and air quality", url: "/images/projects/arbnco.png" },
         { id: 7, title: "Lifereel", vibe: "Crunchy", description: "Record documentaries about your family members", url: "/images/projects/lifereel.png" },
-        { id: 8, title: "An Optimistic Future", vibe: "Opulent", description: "The writing/blog view for a personal writing project", url: "/images/projects/blogview.png" },
+        { id: 8, title: "An Optimistic Future", vibe: "Opulent", description: "The writing/blog view for a personal writing project", url: "/images/projects/blogview.jpg" },
         { id: 9, title: "Thing-A-Day", vibe: "Pulpy", description: "Template for a 'non-depressing' daily email with silly stuff", url: "/images/projects/thingaday.png" },
     ];
 

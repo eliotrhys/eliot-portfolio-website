@@ -48,7 +48,7 @@ const DeepDives = () => {
                             <Link href="/braided">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
-                                        <img src="/images/dives/braided.png" className="block mb-3" alt="" />
+                                        <img src="/images/dives/braided.jpg" className="block mb-3 rounded-md" alt="" />
                                         <div className="overlay">Read more</div>
                                     </div>
                                     <h4 className="title">Braided Communications</h4>
@@ -61,7 +61,7 @@ const DeepDives = () => {
                             <Link href="/featherbed">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
-                                        <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                        <img src="/images/dives/featherbed.jpg" className="block mb-3 rounded-md" alt="" />
                                         <div className="overlay">Read more</div>
                                     </div>
                                     <h4 className="title">Featherbed Tales</h4>
@@ -74,7 +74,7 @@ const DeepDives = () => {
                             <Link href="/langcat">
                                 <div className="deep-dive-synopsis">
                                     <div className="relative">
-                                        <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                                        <img src="/images/dives/langcat.jpg" className="block mb-3 rounded-md" alt="" />
                                         <div className="overlay">Read more</div>
                                     </div>
                                     <h4 className="title">The Lang Cat</h4>
