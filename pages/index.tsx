@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                       <span>.</span>
                     </h1>
                   </div>
-                  <h2 className="text-lg text-xl mb-0">
+                  <h2 className="text-lg mb-0">
                     <span className="text-orange-500">🎨 UX/UI Designer</span> | <span className="text-purple-500">👨🏻‍💻 Full Stack Dev</span> | <span className="text-green-500">🤩 Creative</span>
                   </h2>
                 </div>

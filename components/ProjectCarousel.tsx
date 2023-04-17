@@ -93,19 +93,59 @@ const ProjectCarousel = () => {
     return (
         <div className="mb-10 md:mb-20">
 
-            <div className="mb-10">
-                <h2 className="subtitle text-center">Most recent coding project</h2>
-                <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
+            <div className="container mx-auto">
 
-                <div className="mb-5">
-                    <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com">
-                        <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto hover:scale-105 ease-in-out duration-100" alt="" />
+                <h2 className="subtitle text-center mb-10">Most recent coding projects</h2>
+
+                <motion.div
+                    className="grid grid-cols-1 md:grid-cols-2 gap-5 px-4 md:px-0"
+                    initial="hidden"
+                    variants={variants}
+                    whileInView="showing"
+                    viewport={{ once: true }}
+                >
+
+                    <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com" className="mb-10 p-4">
+                        <h2 className="subtitle small text-center">Triviamoji</h2>
+                        <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
+
+                        <div className="mb-5">
+                            <div className="relative">
+                                <div className="bg-black w-full h-full opacity-0 hover:opacity-90 absolute rounded-md top-0 z-20 duration-300 flex items-center justify-center">
+                                    <div className="text-white text-xl font-bold">Go to <span className="text-yellow-400">triviamoji.com</span></div>
+                                </div>
+                                <img src="/images/projects/triviamoji_og.jpg" className="rounded-md mx-auto" alt="" />
+                            </div>
+                        </div>
+                        <div className="w-full mx-auto px-4">
+                            <h2 className="text-center text-lg md:text-xl md:leading-10">I've just released the Beta version of my new web trivia game <span className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</span>, built in a few days using React, Next.js and Framer Motion. Full breakdown coming soon!</h2>
+                        </div>
                     </a>
-                </div>
-                <div className="w-full md:w-1/2 mx-auto px-4">
-                    <h2 className="text-center text-lg md:text-xl md:leading-10">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion. Full breakdown coming soon!</h2>
-                </div>
+
+                    <a target="_blank" rel="noreferrer" href="https://www.promptblocks.xyz" className="mb-10 p-4">
+                        <h2 className="subtitle small text-center">Promptblocks</h2>
+                        <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, IndexedDB</div>
+                        
+                        <div className="mb-5">
+                            <div className="relative">
+                                <div className="bg-black w-full h-full opacity-0 hover:opacity-90 absolute rounded-md top-0 z-20 duration-300 flex items-center justify-center">
+                                    <div className="text-white text-xl font-bold">Go to <span className="text-yellow-400">promptblocks.xyz</span></div>
+                                </div>
+                                <img src="/images/projects/promptblocks.jpg" className="rounded-md mx-auto" alt="" />
+                            </div>
+                        </div>
+                        <div className="w-full mx-auto px-4">
+                            <div className="flex justify-center">
+                                <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-2 text-center text-bold mx-auto justify-center">👷🏻‍♂️ This project is under construction 🚧</div>
+                            </div>
+                            <h2 className="text-center text-lg md:text-xl md:leading-10">I'm currently working on an app for use with AI art generators Stable Diffusion and Midjourney. This is a local database for images, and a prompt builder for quick remixing of ideas!</h2>
+                        </div>
+                    </a>
+
+                </motion.div>
             </div>
+
+            
 
             <div className="mb-10">
                 <h2 className="subtitle text-center">Some recent UI mockups</h2>
@@ -145,7 +185,7 @@ const ProjectCarousel = () => {
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="p-4">
-                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg rounded-md" alt="" />
+                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>
                                             <div className="title font-bold mb-1">{item.title}</div>
@@ -175,7 +215,7 @@ const ProjectCarousel = () => {
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleMobileItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="p-4">
-                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg rounded-md" alt="" />
+                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>
                                             <div className="title font-bold mb-1">{item.title}</div>
