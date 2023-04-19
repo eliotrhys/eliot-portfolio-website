@@ -81,7 +81,7 @@ const Home: NextPage = () => {
           <img src="/images/memoji.png" className="absolute -top-10 -right-16" height={80} width={80} />
         </div>
         <a href="mailto:eliot@eliotrhys.com" className="subtitle footer-gradient mb-20 w-fit mx-auto block">eliot@eliotrhys.com</a>
-        <div className="text-center text-extrabold">Made with<span className="mx-2 text-center mx-auto">❤️</span>by Eliot Rhys</div>
+        <div className="text-center text-extrabold">Made with<span className="text-center mx-auto">❤️</span>by Eliot Rhys</div>
       </div>
     </div>
   )
