@@ -112,8 +112,7 @@ const ProjectCarousel = () => {
                 >
 
                     <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com" className="mb-10 lg:p-4">
-                        <h2 className="subtitle small text-center">Triviamoji</h2>
-                        <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
+                        
 
                         <div className="mb-5">
                             <div className="relative">
@@ -124,13 +123,14 @@ const ProjectCarousel = () => {
                             </div>
                         </div>
                         <div className="w-full mx-auto px-4">
-                            <h2 className="text-center text-lg md:text-xl md:leading-10">I've just released the Beta version of my new web trivia game <span className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</span>, built in a few days using React, Next.js and Framer Motion. Full breakdown coming soon!</h2>
+                            <h2 className="subtitle small mb-3">Triviamoji</h2>
+                            <div className="text-lg text-slate-500 mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
+                            <p className="text-lg md:text-xl md:leading-10">I've just released the Beta version of my new web trivia game <span className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</span>, built in a few days using React, Next.js and Framer Motion. Full breakdown coming soon!</p>
                         </div>
                     </a>
 
                     <a target="_blank" rel="noreferrer" href="https://www.promptblocks.xyz" className="mb-10 lg:p-4">
-                        <h2 className="subtitle small text-center">Promptblocks</h2>
-                        <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, IndexedDB</div>
+                       
                         
                         <div className="mb-5">
                             <div className="relative">
@@ -141,10 +141,13 @@ const ProjectCarousel = () => {
                             </div>
                         </div>
                         <div className="w-full mx-auto px-4">
-                            <div className="flex justify-center">
-                                <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-2 text-center text-bold mx-auto justify-center">👷🏻‍♂️ This project is under construction 🚧</div>
+                            
+                            <h2 className="subtitle small mb-3">Promptblocks</h2>
+                            <div className="text-lg text-slate-500 mb-3">HTML, CSS, Javascript, React, Next.js, IndexedDB</div>
+                            <div className="">
+                                <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-1 text-sm text-center text-bold justify-center">👷🏻‍♂️ This project is under construction 🚧</div>
                             </div>
-                            <h2 className="text-center text-lg md:text-xl md:leading-10">I'm currently working on an app for use with AI art generators Stable Diffusion and Midjourney. This is a local database for images, and a prompt builder for quick remixing of ideas!</h2>
+                            <p className="text-lg md:text-xl md:leading-10">I'm currently working on an app for use with AI art generators Stable Diffusion and Midjourney. This is a local database for images, and a prompt builder for quick remixing of ideas!</p>
                         </div>
                     </a>
 

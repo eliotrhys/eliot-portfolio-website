@@ -40,7 +40,6 @@ const PersonalStuff = () => {
 
     return (
         <div>
-            
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
 
@@ -68,7 +67,7 @@ const PersonalStuff = () => {
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-3xl text-center">
                         <div className="text-6xl mb-5">󠁧󠁢󠁥󠁮󠁧🎨</div> 
-                        <div className="leading-loose">3 years design experience</div>
+                        <div className="leading-loose">4 years design experience</div>
                     </motion.div>
                     <motion.div variants={animationItem} className="text-xl md:text-2xl lg:text-3xl text-center">
                         <div className="text-6xl mb-5">󠁧󠁢󠁥󠁮󠁧🤓</div> 
@@ -135,7 +134,7 @@ const PersonalStuff = () => {
 
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div>
-                            <div className="bitty-text rotate-6 text-center md:text-left">fun, quirky, functional design</div>
+                            <div className="bitty-text rotate-6 text-center md:text-left">slick, joyful, functional design</div>
                         </div>
                     </motion.div>
                 </motion.div>
@@ -188,7 +187,8 @@ const PersonalStuff = () => {
 
             <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
                 <h2 className="text-center text-4xl mb-5">🦕</h2>
-                <h2 className="text-center text-xl md:text-3xl !leading-loose">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 years. I've been working as a contractor at various agencies for the past year. Now I'm now looking for a new opportunity, to learn and build cool things.</h2>
+                <h2 className="text-center text-xl md:text-3xl !leading-loose">I worked at <a href="https://www.baddinosaur.co.uk" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Bad Dinosaur</a> for 3 years. I've been working as a contractor at various agencies for the past year.</h2>
+                <h2 className="text-center text-xl md:text-3xl !leading-loose">Now I'm now looking for a new opportunity, to learn and build cool things.</h2>
             </div>
 
             <div className="container w-full lg:w-2/3 mx-auto mb-20">
@@ -200,7 +200,7 @@ const PersonalStuff = () => {
                         viewport={{ once: true }}
                     >
                     <motion.div variants={animationItem} className="flex items-center justify-end">
-                        <div className="testimonial-block -mr-5 md:-mr-20 relative z-10">
+                        <div className="testimonial-block -mr-5 md:-mr-20 relative z-10 border-l-8 border-blue-500">
                             <div>Eliot is lowkey great at coding and design fr fr</div>
                             <div className="text-sm text-slate-500">100% real quote certified 100%</div>
                             <div className="text-right text-blue-400">~ Elon Musk?</div>
@@ -214,11 +214,13 @@ const PersonalStuff = () => {
                 <div className="bitty-text text-center">... silliness aside, that's about it!</div>
             </div>
 
-            <div className="container w-full lg:w-2/3 mx-auto px-4 md:px-0 mb-20">
+            <div className="lg:container w-full lg:w-3/4 mx-auto px-4 mb-4 rounded-lg">
+                <div className="p-4 bg-amber-100 relative rounded-lg">
                 <h2 className="mb-5">
                     <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto" alt="" />
                 </h2>
-                <h2 className="text-center text-xl md:text-3xl !leading-loose">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</h2>
+                <p className="text-center text-xl md:text-2xl !leading-loose text-amber-900 lg:w-3/4 mx-auto">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</p>
+                </div>
             </div>
 
             
