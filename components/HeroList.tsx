@@ -89,7 +89,7 @@ const HeroBlock = () => {
                         <div className="text-lg mb-2 hover:pl-2 duration-200 ease-in-out cursor-pointer">Javascript, Typescript</div>
                         <div className="h-px w-full bg-purple-700 mb-2"></div>
                         <div className="text-lg hover:pl-2 duration-200 ease-in-out cursor-pointer">React, Next.js</div>
-                        <a href="https://github.com/eliotrhys" target="_blank" className="text-md text-white mt-6 p-4 duration-200 ease-in-out cursor-pointer bg-purple-600 hover:bg-purple-800 flex justify-center items-center rounded-lg">Github</a>
+                        <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="text-md text-white mt-6 p-4 duration-200 ease-in-out cursor-pointer bg-purple-600 hover:bg-purple-800 flex justify-center items-center rounded-lg">Github</a>
                     </div>
                 </motion.div>
 
