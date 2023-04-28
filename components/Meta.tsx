@@ -23,7 +23,7 @@ const Meta = ({title, keywords, description} : Props) => {
 Meta.defaultProps = {
     title: 'Eliot Rhys',
     keywords: 'eliot rhys, eliot, rhys',
-    description: 'Eliot Rhys description goes here'
+    description: 'The design and development portfolio of Eliot Rhys'
 }
 
 export default Meta

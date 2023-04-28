@@ -97,7 +97,7 @@ const ProjectCarousel = () => {
     ];
 
     return (
-        <div className="mb-10 md:mb-20">
+        <div className="mb-10 md:mb-20 mt-20">
 
             <div className="container mx-auto">
 
@@ -111,7 +111,7 @@ const ProjectCarousel = () => {
                     viewport={{ once: true }}
                 >
 
-                    <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com" className="mb-10 p-4">
+                    <a target="_blank" rel="noreferrer" href="https://www.triviamoji.com" className="mb-10 lg:p-4">
                         <h2 className="subtitle small text-center">Triviamoji</h2>
                         <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, Framer Motion</div>
 
@@ -128,7 +128,7 @@ const ProjectCarousel = () => {
                         </div>
                     </a>
 
-                    <a target="_blank" rel="noreferrer" href="https://www.promptblocks.xyz" className="mb-10 p-4">
+                    <a target="_blank" rel="noreferrer" href="https://www.promptblocks.xyz" className="mb-10 lg:p-4">
                         <h2 className="subtitle small text-center">Promptblocks</h2>
                         <div className="text-lg text-slate-500 text-center mb-3">HTML, CSS, Javascript, React, Next.js, IndexedDB</div>
                         
@@ -151,14 +151,9 @@ const ProjectCarousel = () => {
                 </motion.div>
             </div>
 
-            
-
-            <div className="mb-10">
+            <div className="mb-10" id="design-block">
                 <h2 className="subtitle text-center">Some recent UI mockups</h2>
                 <div className="text-lg text-slate-500 text-center mb-3">Adobe XD, Desktop & Mobile</div>
-                <div className="text-center">
-                    <div className="bg-yellow-100 text-yellow-600 inline-block mb-1 px-3 py-2 text-center text-bold mx-auto justify-center">👷🏻‍♂️ This section under construction 🚧</div>
-                </div>
             </div>
 
             <Lightbox
@@ -190,7 +185,7 @@ const ProjectCarousel = () => {
                         portfolioItems.map((item, index) => (
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
-                                    <div className="p-4">
+                                    <div className="lg:p-4">
                                         <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>
@@ -220,7 +215,7 @@ const ProjectCarousel = () => {
                         mobilePortfolioItems.map((item, index) => (
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleMobileItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
-                                    <div className="p-4">
+                                    <div className="lg:p-4">
                                         <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>

@@ -166,7 +166,7 @@ const Braided: NextPage = () => {
                     <Link href="/featherbed">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
-                                <img src="/images/dives/featherbed.png" className="block mb-3" alt="" />
+                                <img src="/images/dives/featherbed.jpg" className="block mb-3" alt="" />
                                 <div className="overlay">Read more</div>
                             </div>
                             <h4 className="title black">Featherbed Tales</h4>
@@ -179,7 +179,7 @@ const Braided: NextPage = () => {
                     <Link href="/langcat">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
-                                <img src="/images/dives/langcat.png" className="block mb-3" alt="" />
+                                <img src="/images/dives/langcat.jpg" className="block mb-3" alt="" />
                                 <div className="overlay">Read more</div>
                             </div>
                             <h4 className="title black">The Lang Cat</h4>
