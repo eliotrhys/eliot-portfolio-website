@@ -85,7 +85,7 @@ const Home: NextPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
 
-          <div className="p-4 bg-teal-100 relative rounded-lg flex justify-center items-center">
+          <div className="p-4 border border-black relative rounded-lg flex justify-center items-center">
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-4">
                 <img src="/images/github.png" className="block w-full p-4" alt="" />
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="p-4 bg-rose-100 relative rounded-lg flex justify-center items-center">
+          <div className="p-4 border border-black relative rounded-lg flex justify-center items-center">
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-4">
                 <img src="/images/thumbs.png" className="block w-full" alt="" />

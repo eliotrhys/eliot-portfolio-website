@@ -215,11 +215,11 @@ const PersonalStuff = () => {
             </div>
 
             <div className="lg:container w-full lg:w-3/4 mx-auto px-4 mb-4 rounded-lg">
-                <div className="p-4 bg-amber-100 relative rounded-lg">
+                <div className="p-4 border border-black relative rounded-lg">
                 <h2 className="mb-5">
                     <img src="/images/projects/triviamoji_og.jpg" className="h-48 rounded-md mx-auto" alt="" />
                 </h2>
-                <p className="text-center text-xl md:text-2xl !leading-loose text-amber-900 lg:w-3/4 mx-auto">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</p>
+                <p className="text-center text-xl md:text-2xl !leading-loose lg:w-3/4 mx-auto">I've just released the Beta version of my new web trivia game <a href="https://www.triviamoji.com" target="_blank" rel="noreferrer" className="text-bold text-blue-500 hover:cursor-pointer">Triviamoji</a>, built in a few days using React, Next.js and Framer Motion.</p>
                 </div>
             </div>
 

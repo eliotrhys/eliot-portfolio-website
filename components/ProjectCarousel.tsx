@@ -189,7 +189,7 @@ const ProjectCarousel = () => {
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="lg:p-4">
-                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
+                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg saturate-[1.25]" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>
                                             <div className="title font-bold mb-1">{item.title}</div>
@@ -219,7 +219,7 @@ const ProjectCarousel = () => {
                             <motion.div variants={animationItem} key={item.id} onClick={() => handleMobileItemClick(item, index)}>
                                 <div className="portfolio-grid-item">
                                     <div className="lg:p-4">
-                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg" alt="" />
+                                        <img src={item.url} className="mx-auto rounded-md drop-shadow-lg saturate-[1.25]" alt="" />
                                         <div className="p-4">
                                             <div className="bg-blue-100 text-blue-600 inline-flex mb-1 px-3">{item.vibe}</div>
                                             <div className="title font-bold mb-1">{item.title}</div>
