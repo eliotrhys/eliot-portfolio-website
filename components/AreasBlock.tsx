@@ -27,11 +27,13 @@ const AreasBlock = () => {
     }
 
     return (
-        <div>
-          <h2 className="subtitle mb-5 md:mb-10 text-center">I've worked on projects in</h2>
+        <div className="border border-neutral-900 rounded-md">
+
+          <h2 className="text-xl mb-5 text-white text-center pt-10">I've worked on projects in</h2>
+
             <div className="">
                 <motion.div
-                    className="mb-5 text-center areas-block px-4 md:px-0" 
+                    className="mb-5 text-center areas-block p-6" 
                     initial="hidden"
                     variants={variants}
                     whileInView="showing"
@@ -52,8 +54,11 @@ const AreasBlock = () => {
                     <motion.div variants={animationItem} className="inline-flex"><a href="https://github.com/eliotrhys/mystic_miriam" target="_blank" rel="noreferrer" className="area-badge bg-teal-500 border border-teal-900">🤖 AI entertainment</a></motion.div>
                 </motion.div>
             </div>
-            <h2 className="subtitle px-4 md:px-0 mb-5 text-center">and even written code being used on the <a href="https://braided.space/" target="_blank" rel="noreferrer" className="area-badge bg-purple-500 border border-purple-900" style={{marginRight: "0px"}}>International Space Station 👽</a></h2>
-            <h3 className="font-medium text-gray-400 mb-10 md:mb-20 text-lg md:text-xl tracking-tighter text-center">⬆️ Click to explore</h3>
+
+            <div className="mb-5 text-center">
+                <h2 className="text-xl mb-5 text-white text-center">and even written code being used on the</h2>
+                <a href="https://braided.space/" target="_blank" rel="noreferrer" className="area-badge bg-purple-500 border border-purple-900" style={{marginRight: "0px"}}>International Space Station 👽</a>
+            </div>
         </div>
     )
 }
