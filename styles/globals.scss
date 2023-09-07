@@ -14,7 +14,9 @@ body {
 }
 
 body {
-  background-color: #0a0a0a;
+  // background-color: #0a0a0a;
+  background: rgb(10,10,10);
+  background: radial-gradient(circle, rgba(10,10,10,1) 0%, rgba(31,31,31,1) 100%);
 }
 
 a {
@@ -187,11 +189,11 @@ a {
 
   img {
     transition: 0.1s ease;
-    background-color: #0a0a0a;
-    padding: 0.5rem;
-    border-radius: 12px;
-    box-shadow: 1px 3px 6px #1d1d1d;
-    border: 1px solid #313131;
+    // background-color: #0a0a0a;
+    // padding: 0.5rem;
+    // border-radius: 12px;
+    // box-shadow: 1px 3px 6px #1d1d1d;
+    // border: 1px solid #313131;
     margin: 1rem;
   }
 
@@ -301,7 +303,7 @@ a {
   align-items: center;
   justify-content: center;
   color: white;
-  border-radius: 10px;
+  border-radius: 6px;
   padding-left: 1rem;
   padding-right: 1rem;
   transition: 0.1s ease;
@@ -679,5 +681,14 @@ a {
   &:hover {
     background-color: #ea4c89;
     color: white;
+  }
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, -0.8);
+  backdrop-filter: blur(16px);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.03) !important;
   }
 }

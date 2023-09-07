@@ -27,7 +27,7 @@ const AreasBlock = () => {
     }
 
     return (
-        <div className="border border-neutral-900 rounded-md">
+        <div className="hero-card border border-neutral-950 hover:border-pink-500 bg-neutral-900 hover:bg-neutral-950 duration-100 ease-in-out rounded-md">
 
           <h2 className="text-xl mb-4 text-white text-center pt-10">I've worked on projects in</h2>
 

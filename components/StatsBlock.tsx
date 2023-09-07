@@ -32,7 +32,7 @@ const StatsBlock = () => {
     }
 
     return (
-        <div className="stats-container min-h-full min-w-full border border-neutral-900 rounded-md">
+        <div className="hero-card stats-container min-h-full min-w-full border border-neutral-950 hover:border-yellow-500 bg-neutral-900 hover:bg-neutral-950 duration-100 ease-in-out rounded-md">
             <div className="stats-block flex justify-center pt-10">
                 <h2 className="text-xl text-white text-center mb-4">Stuff I'm good at</h2>
             </div>
@@ -51,7 +51,7 @@ const StatsBlock = () => {
                     <motion.div variants={animationItem}><img src="/images/tech_images/css.png" className="h-14 rotate-[-25deg] css" alt="" /></motion.div>
                     <motion.div variants={animationItem}><img src="/images/tech_images/sass.png" className="h-14 rotate-[20deg] sass" alt="" /></motion.div>
                     <motion.div variants={animationItem}><img src="/images/tech_images/bootstrap.png" className="h-14 rotate-[15deg] bootstrap" alt="" /></motion.div>
-                    <motion.div variants={animationItem}><img src="/images/tech_images/tailwind.svg" className="h-10 rotate-[24deg] tailwind" alt="" /></motion.div>
+                    <motion.div variants={animationItem}><img src="/images/tech_images/tailwind.svg" className="h-8 rotate-[-24deg] tailwind" alt="" /></motion.div>
                     <motion.div variants={animationItem}><img src="/images/tech_images/react.png" className="h-14 rotate-[-15deg] react" alt="" /></motion.div>
                     <motion.div variants={animationItem}><img src="/images/tech_images/next.svg" className="h-10 rotate-[25deg] next" alt="" /></motion.div>
                     <motion.div variants={animationItem}><img src="/images/tech_images/javascript.png" className="h-14  rotate-[20deg] javascript" alt="" /></motion.div>

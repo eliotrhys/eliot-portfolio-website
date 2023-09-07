@@ -34,38 +34,38 @@ const HeroBlock = () => {
                 viewport={{ once: true }}
             >
 
-                <motion.div variants={animationItem} className="border border-neutral-900 hover:bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-lime-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
-                            <img src="/images/phone.png" alt="" />
+                            <img src="/images/hands/handhand.png" alt="" className="duration-100 ease-in-out hover:rotate-[15deg]" />
                         </div>
                         <div className="text-xl font-medium text-center text-lime-500">Built 40+<br/>apps</div>
                     </div>
                 </motion.div>
 
-                <motion.div variants={animationItem} className="border border-neutral-900 hover:bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-red-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
-                            <img src="/images/phone.png" alt="" />
+                            <img src="/images/hands/handhand2.png" alt="" className="duration-100 ease-in-out hover:rotate-[-15deg]" />
                         </div>
                         <div className="text-xl font-medium text-center text-red-500">5+ years<br/>experience</div>
                     </div>
                 </motion.div>
 
-                <motion.div variants={animationItem} className="border border-neutral-900 hover:bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-purple-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
-                            <img src="/images/phone.png" alt="" />
+                            <img src="/images/hands/handhand3.png" alt="" className="duration-100 ease-in-out hover:rotate-[15deg]" />
                         </div>
                         <div className="text-xl font-medium text-center text-purple-500">Agency, contract<br/>+ freelance</div>
                     </div>
                 </motion.div>
 
 
-                <motion.div variants={animationItem} className="border border-neutral-900 hover:bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-orange-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
-                            <img src="/images/phone.png" alt="" />
+                            <img src="/images/phone.png" alt="" className="duration-100 ease-in-out hover:rotate-[-15deg]" />
                         </div>
                         <div className="text-xl font-medium text-center text-orange-500">Creative<br/>consultant</div>
                     </div>
