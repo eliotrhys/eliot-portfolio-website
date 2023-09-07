@@ -26,17 +26,15 @@ const Home: NextPage = () => {
 
         <div className="half-page-container bg-cover bg-no-repeat">
 
-          {/* <img src="/images/wink.png" className="absolute bottom-0 right-0 h-24 md:h-36 lg:h-56 rounded-br-lg" alt="" /> */}
-
           <motion.div 
             animate={{ opacity: [0, 1] }} 
             transition={{ duration: 1 }}
             className="w-full"
           >
-            <div className="py-4">
+            <div className="py-14">
               <div className="flex justify-between items-center">
                 <div>
-                  <div className="flex items-center">
+                  <div className="flex items-center mb-2">
                     <h1 className="main-title highlight">
                       <span>E</span>
                       <span>l</span>
@@ -69,8 +67,6 @@ const Home: NextPage = () => {
                     <span className="text-amber-500 rounded-md border-amber-500 text-md hover:bg-amber-500 hover:text-white duration-100 ease-in-out cursor-pointer">🤩 Creative Genius</span>
                     </div>
                 </div>
-
-                <div className="text-white border border-neutral-900 px-2 rounded-md">Follow me on X</div>
               </div>
             </div>
           </motion.div>
@@ -82,11 +78,19 @@ const Home: NextPage = () => {
       <div className="container mx-auto px-4 md:w-2/3 md:px-0">
         <div className="text-white text-lg lg:text-2xl font-medium leading-loose">
           
-          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> Check out my <a href="https://github.com/eliotrhys" target="_blank" className="px-2 rounded-md border-sky-500 text-sky-500 duration-100 ease-in-out hover:bg-sky-500 relative hover:text-white"><FontAwesomeIcon icon={faGithub} /> GitHub</a> for code, or my <a href="" target="_blank" className="px-2 rounded-md dribbble duration-100 ease-in-out"><FontAwesomeIcon icon={faDribbble} /> Dribbble</a> for design</div>
+          <div className="mb-8 lg:mb-14 flex flex-wrap items-center">
+            <div className="bg-white h-2 w-2 rounded-full mr-4"></div> 
+            <div>
+              <span>Check out my</span> 
+              <a href="https://github.com/eliotrhys" target="_blank" className="px-2 rounded-md border-sky-500 text-sky-500 duration-100 ease-in-out hover:bg-sky-500 relative hover:text-white hover:mx-2"><FontAwesomeIcon icon={faGithub} /> GitHub</a>for code, or my 
+              <a href="" target="_blank" className="px-2 rounded-md dribbble duration-100 ease-in-out hover:mx-2"><FontAwesomeIcon icon={faDribbble} /> Dribbble</a> 
+              <span>for design</span>
+            </div>
+          </div>
           
-          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> My latest projects are <a href="https://www.triviamoji.com" target="_blank" className="border px-2 rounded-md border-neutral-700 bg-neutral-800 hover:bg-neutral-900 hover:border-neutral-800 text-md lg:text-xl mx-2">Triviamoji <FontAwesomeIcon icon={faUpRightFromSquare} /></a> and <a href="https://www.lifereel.co.uk" target="_blank" className="border px-2 rounded-md border-neutral-700 bg-neutral-800 hover:bg-neutral-900 hover:border-neutral-800 text-md lg:text-xl mx-2">The Lifereel Company <FontAwesomeIcon icon={faUpRightFromSquare} /></a></div>
+          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> My latest projects are <a href="https://www.triviamoji.com" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-red-500 text-red-500 hover:text-white hover:mx-2">Triviamoji <FontAwesomeIcon icon={faUpRightFromSquare} /></a> and <a href="https://www.lifereel.co.uk" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-green-500 text-green-500 hover:text-white hover:mx-2">The Lifereel Company <FontAwesomeIcon icon={faUpRightFromSquare} /></a></div>
 
-          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> I also write <a href="https://twitter.com/optimistictales" target="_blank" className="border px-2 rounded-md border-neutral-700 bg-neutral-800 hover:bg-neutral-900 hover:border-neutral-800 text-md lg:text-xl mx-2">🌱 optimistic sci-fi short stories</a></div>
+          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> I also write <a href="https://twitter.com/optimistictales" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-violet-500 text-violet-500 hover:text-white hover:mx-2">🌱 optimistic sci-fi short stories</a></div>
         </div>
       </div>
 

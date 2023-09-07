@@ -41,7 +41,7 @@ const DeepDives = () => {
                         whileInView="showing"
                         viewport={{ once: true }}
                     >
-                        <motion.div variants={animationItem} className="lg:col-span-6">
+                        <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-6">
                             <Link href="/triviamoji">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">

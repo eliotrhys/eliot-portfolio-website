@@ -29,11 +29,11 @@ const AreasBlock = () => {
     return (
         <div className="border border-neutral-900 rounded-md">
 
-          <h2 className="text-xl mb-5 text-white text-center pt-10">I've worked on projects in</h2>
+          <h2 className="text-xl mb-4 text-white text-center pt-10">I've worked on projects in</h2>
 
             <div className="">
                 <motion.div
-                    className="mb-5 text-center areas-block p-6" 
+                    className="mb-5 text-center areas-block lg:p-6" 
                     initial="hidden"
                     variants={variants}
                     whileInView="showing"
@@ -56,7 +56,7 @@ const AreasBlock = () => {
             </div>
 
             <div className="mb-5 text-center">
-                <h2 className="text-xl mb-5 text-white text-center">and even written code being used on the</h2>
+                <h2 className="text-xl mb-5 px-6 lg:px-0 text-white text-center">and even written code being used on the</h2>
                 <a href="https://braided.space/" target="_blank" rel="noreferrer" className="area-badge bg-purple-500 border border-purple-900" style={{marginRight: "0px"}}>International Space Station 👽</a>
             </div>
         </div>
