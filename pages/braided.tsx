@@ -53,9 +53,9 @@ const Braided: NextPage = () => {
                         whileInView="showing"
                         viewport={{ once: true }}
                     >
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-blue-100 text-blue-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">📡</span>Space Communications</div></motion.div>
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-orange-100 text-orange-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🧠</span>Psychological Design</div></motion.div>
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-purple-100 text-purple-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🖥</span>Web</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">📡</span>Space Communications</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🧠</span>Psychological Design</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🖥</span>Web</div></motion.div>
                     </motion.div>
                     <div className="text-center">
                         <div className="text-extrabold text-white mb-4">scroll down</div>
@@ -66,7 +66,7 @@ const Braided: NextPage = () => {
         </div>
 
         <div className="container w-full lg:w-3/4 xl:w-3/4 2xl:w-1/2 px-4 md:px-0 mx-auto mt-10 md:mt-20">
-            <div className="mb-20">
+            <div className="mb-20 p-14 border border-neutral-800 rounded-md">
                 <h2 className="subtitle text-center mb-8">💡 The Pitch</h2>
 
                 <p className="text-xl md:text-2xl lg:text-3xl mb-8 md:leading-loose text-center">Braided Communications approached us to build a <strong className="text-blue-500">communications tool</strong>, based on <strong className="text-orange-500">psychological principles</strong>, to help astronauts communicate <strong className="text-purple-500">asynchronously</strong> without mental stress</p>

@@ -32,7 +32,7 @@ const StatsBlock = () => {
     }
 
     return (
-        <div className="hero-card stats-container min-h-full min-w-full border border-neutral-950 hover:border-yellow-500 bg-neutral-900 hover:bg-neutral-950 duration-100 ease-in-out rounded-md">
+        <div className="hero-card stats-container min-h-full min-w-full border border-neutral-800 hover:border-yellow-500 bg-neutral-900 hover:bg-neutral-950 duration-100 ease-in-out rounded-md">
             <div className="stats-block flex justify-center pt-10">
                 <h2 className="text-xl text-white text-center mb-4">Stuff I'm good at</h2>
             </div>

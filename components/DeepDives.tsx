@@ -45,7 +45,7 @@ const DeepDives = () => {
                             <Link href="/triviamoji">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
-                                        <img src="/images/projects/triviamoji_og.jpg" className="block mb-3 rounded-md" alt="" />
+                                        <img src="/images/dives/triviamoji.jpg" className="block mb-3 rounded-md" alt="" />
                                         <div className="overlay">Read more</div>
                                     </div>
                                     <h4 className="title">Triviamoji</h4>
@@ -58,7 +58,7 @@ const DeepDives = () => {
                             <Link href="/promptblocks">
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
-                                        <img src="/images/projects/promptblocks.jpg" className="block mb-3 rounded-md" alt="" />
+                                        <img src="/images/dives/promptblocks.jpg" className="block mb-3 rounded-md" alt="" />
                                         <div className="overlay">Read more</div>
                                     </div>
                                     <h4 className="title">Promptblocks</h4>

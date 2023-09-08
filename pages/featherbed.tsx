@@ -53,10 +53,10 @@ const Featherbed: NextPage = () => {
                         whileInView="showing"
                         viewport={{ once: true }}
                     >
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-green-100 text-green-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">📖</span>Online Reading</div></motion.div>
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-cyan-100 text-cyan-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">👶🏻</span>Children's Stories</div></motion.div>
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-purple-100 text-purple-500 md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🖥</span>Web</div></motion.div>
-                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 bg-lime-100 text-lime-500 md:text-xl p-2 px-5 mx-1 rounded my-1 cursor-pointer"><span className="mr-3">📱</span>Mobile</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">📖</span>Online Reading</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">👶🏻</span>Children's Stories</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl mx-1 p-2 px-5 rounded my-1 cursor-pointer"><span className="mr-3">🖥</span>Web</div></motion.div>
+                        <motion.div variants={animationItem}><div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass md:text-xl p-2 px-5 mx-1 rounded my-1 cursor-pointer"><span className="mr-3">📱</span>Mobile</div></motion.div>
                     </motion.div>
                     <motion.div className="text-center">
                         <div className="text-extrabold text-white mb-4">scroll down</div>

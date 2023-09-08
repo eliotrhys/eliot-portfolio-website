@@ -27,20 +27,20 @@ const DeepDiveAlt = () => {
     }
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
 
             <div className="mb-10">
                 <div className="subtitle text-center">Read the other Case Studies</div>
             </div>
 
             <motion.div
-                className="grid grid-cols-1 md:grid-cols-5 gap-5 md:px-0"
+                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-5 md:px-0"
                 initial="hidden"
                 variants={variants}
                 whileInView="showing"
                 viewport={{ once: true }}
             >
-                <motion.div variants={animationItem}>
+                <motion.div variants={animationItem} className="md:col-span-3 lg:col-span-1">
                     <Link href="/featherbed">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
@@ -53,7 +53,7 @@ const DeepDiveAlt = () => {
                     </Link>
                 </motion.div>
 
-                <motion.div variants={animationItem}>
+                <motion.div variants={animationItem} className="md:col-span-3 lg:col-span-1">
                     <Link href="/braided">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
@@ -66,7 +66,7 @@ const DeepDiveAlt = () => {
                     </Link>
                 </motion.div>
 
-                <motion.div variants={animationItem}>
+                <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
                     <Link href="/braided">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
@@ -79,11 +79,11 @@ const DeepDiveAlt = () => {
                     </Link>
                 </motion.div>
 
-                <motion.div variants={animationItem}>
+                <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
                     <Link href="/braided">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
-                                <img src="/images/dives/braided.jpg" className="block mb-3 rounded-md" alt="" />
+                                <img src="/images/dives/triviamoji.jpg" className="block mb-3 rounded-md" alt="" />
                                 <div className="overlay rounded-md">Read more</div>
                             </div>
                             <h4 className="title">Triviamoji</h4>
@@ -92,11 +92,11 @@ const DeepDiveAlt = () => {
                     </Link>
                 </motion.div>
 
-                <motion.div variants={animationItem}>
+                <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
                     <Link href="/braided">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
-                                <img src="/images/dives/braided.jpg" className="block mb-3 rounded-md" alt="" />
+                                <img src="/images/dives/promptblocks.jpg" className="block mb-3 rounded-md" alt="" />
                                 <div className="overlay rounded-md">Read more</div>
                             </div>
                             <h4 className="title">Promptblocks</h4>

@@ -34,7 +34,7 @@ const HeroBlock = () => {
                 viewport={{ once: true }}
             >
 
-                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-lime-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-800 hover:border-lime-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
                             <img src="/images/hands/handhand.png" alt="" className="duration-100 ease-in-out hover:rotate-[15deg]" />
@@ -43,7 +43,7 @@ const HeroBlock = () => {
                     </div>
                 </motion.div>
 
-                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-red-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-800 hover:border-red-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
                             <img src="/images/hands/handhand2.png" alt="" className="duration-100 ease-in-out hover:rotate-[-15deg]" />
@@ -52,7 +52,7 @@ const HeroBlock = () => {
                     </div>
                 </motion.div>
 
-                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-purple-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-800 hover:border-purple-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
                             <img src="/images/hands/handhand3.png" alt="" className="duration-100 ease-in-out hover:rotate-[15deg]" />
@@ -62,7 +62,7 @@ const HeroBlock = () => {
                 </motion.div>
 
 
-                <motion.div variants={animationItem} className="hero-card border border-neutral-950 hover:bg-neutral-950 hover:border-orange-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
+                <motion.div variants={animationItem} className="hero-card border border-neutral-800 hover:border-orange-500 bg-neutral-900 duration-100 ease-in-out rounded-lg xl:col-span-3">
                     <div className="p-6 text-black flex justify-center items-center flex-col h-full">
                         <div className="mb-6">
                             <img src="/images/phone.png" alt="" className="duration-100 ease-in-out hover:rotate-[-15deg]" />
