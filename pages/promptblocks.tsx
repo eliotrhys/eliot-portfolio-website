@@ -3,7 +3,7 @@ import { NextPage } from "next"
 import Link from "next/link"
 import DeepDiveAlt from "../components/DeepDiveAlt"
 
-const Braided: NextPage = () => {
+const Promptblocks: NextPage = () => {
 
     const variants = {
         hidden: { opacity: 0 },
@@ -43,8 +43,8 @@ const Braided: NextPage = () => {
                         whileInView="showing"
                         viewport={{ once: true }}
                     >
-                    <motion.div variants={animationItem}><h1 className="main-title text-center text-white eliot-shadow">🚀</h1></motion.div>
-                    <motion.div variants={animationItem}><h1 className="main-title text-center text-white mb-3 eliot-shadow">Braided Communications</h1></motion.div>
+                    <motion.div variants={animationItem}><h1 className="main-title text-center text-white eliot-shadow">🧱</h1></motion.div>
+                    <motion.div variants={animationItem}><h1 className="main-title text-center text-white mb-3 eliot-shadow">Promptblocks</h1></motion.div>
                     <motion.div variants={animationItem}><h2 className="subtitle text-center text-white mb-10 mx-4 eliot-shadow">A psychology-based communications tool for Astronauts en-route to Mars</h2></motion.div>
                     <motion.div
                         className="flex flex-wrap justify-center mb-10"
@@ -159,4 +159,4 @@ const Braided: NextPage = () => {
       )
     }
 
-export default Braided
+export default Promptblocks

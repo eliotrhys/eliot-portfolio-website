@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { NextPage } from "next"
 import Link from "next/link"
+import DeepDiveAlt from "../components/DeepDiveAlt"
 
 const LangCat: NextPage = () => {
 
@@ -27,7 +28,7 @@ const LangCat: NextPage = () => {
     }
 
     return (
-      <div className="">
+      <div className="text-white">
         <div>
             <video autoPlay muted loop id="fullPageVideo">
                 <source src="https://eliot.eu-central-1.linodeobjects.com/langcat.webm" type="video/webm" />
@@ -135,52 +136,11 @@ const LangCat: NextPage = () => {
                 <p className="text-xl md:text-2xl md:leading-10 mb-8 text-center">🏡</p>
 
             </div>
-
-            <div className="mb-10">
-                <div className="subtitle text-center">Read the other Deep Dives 🤿</div>
-            </div>
-
-            <motion.div
-                className="grid grid-cols-1 md:grid-cols-2 gap-5 md:px-0"
-                initial="hidden"
-                variants={variants}
-                whileInView="showing"
-                viewport={{ once: true }}
-            >
-                <motion.div variants={animationItem}>
-                    <Link href="/featherbed">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/featherbed.jpg" className="block mb-3" alt="" />
-                                <div className="overlay">Read more</div>
-                            </div>
-                            <h4 className="title black">Featherbed Tales</h4>
-                            <p className="description">Read your kids a bedtime story - wherever you are</p>
-                        </div>
-                    </Link>
-                </motion.div>
-
-                <motion.div variants={animationItem}>
-                    <Link href="/braided">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/braided.jpg" className="block mb-3" alt="" />
-                                <div className="overlay">Read more</div>
-                            </div>
-                            <h4 className="title black">Braided Communications</h4>
-                            <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
-                        </div>
-                    </Link>
-                </motion.div>
-            </motion.div>
-
-            <div className="mb-20">
-                <Link href="/">
-                    <div className="text-center text-lg cursor-pointer hover:scale-110 ease-in-out">👈 see the rest</div>
-                </Link>
-            </div>
         </div>
-      </div>
+
+        <DeepDiveAlt />
+
+    </div>
       )
     }
 

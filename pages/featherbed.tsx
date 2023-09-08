@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { NextPage } from "next"
 import Link from "next/link"
+import DeepDiveAlt from "../components/DeepDiveAlt"
 
 const Featherbed: NextPage = () => {
 
@@ -27,7 +28,7 @@ const Featherbed: NextPage = () => {
     }
 
     return (
-      <div className="">
+      <div className="text-white">
         <div>
             <video autoPlay muted loop id="fullPageVideo">
                 <source src="https://eliot.eu-central-1.linodeobjects.com/featherbed.webm" type="video/webm" />
@@ -66,7 +67,8 @@ const Featherbed: NextPage = () => {
         </div>
 
         <div className="container w-full lg:w-3/4 xl:w-3/4 2xl:w-1/2 px-4 md:px-0 mx-auto mt-10 md:mt-20">
-            <div className="mb-20">
+
+            <div className="mb-20 p-14 border border-neutral-800 rounded-md">
                 <h2 className="subtitle text-center mb-8">💡 The Pitch</h2>
 
                 <p className="text-xl md:text-2xl lg:text-3xl mb-8 md:leading-loose text-center">Featherbed Tales approached us to build an online platform for <strong className="text-green-500">recording custom voiceovers</strong> for <strong className="text-purple-500">children’s books</strong>, based on the charming works of Caroline England.</p>
@@ -94,7 +96,7 @@ const Featherbed: NextPage = () => {
 
                 <div className="relative">
                     <div className="text-5xl lg:text-9xl absolute top-3 left-3 lg:-top-10 lg:-left-10 text-purple-600" style={{fontFamily: "Times New Roman"}}>“</div>
-                    <p className="text-xl md:text-2xl md:leading-10 mb-8 bg-purple-100 p-10 text-purple-600">The workshop for me was absolutely amazing. We sat down, the four of us, for a few hours and talked through the various paths and ideas for the project. Everything was always transparent, consistent, and I could see immediately that their approach was exactly how I like to work.</p>
+                    <p className="text-xl md:text-2xl md:leading-10 mb-8 bg-purple-100 p-10 text-purple-600 rounded-md">The workshop for me was absolutely amazing. We sat down, the four of us, for a few hours and talked through the various paths and ideas for the project. Everything was always transparent, consistent, and I could see immediately that their approach was exactly how I like to work.</p>
                 </div>
                 
 
@@ -171,51 +173,9 @@ const Featherbed: NextPage = () => {
                 <p className="text-xl md:text-2xl md:leading-10 mb-8 text-center">📖</p>
 
             </div>
-
-            <div className="mb-10">
-                <div className="subtitle text-center">Read the other Deep Dives 🤿</div>
-            </div>
-
-            <motion.div
-                className="grid grid-cols-1 md:grid-cols-2 gap-5 md:px-0"
-                initial="hidden"
-                variants={variants}
-                whileInView="showing"
-                viewport={{ once: true }}
-            >
-                <motion.div variants={animationItem}>
-                    <Link href="/braided">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/braided.jpg" className="block mb-3" alt="" />
-                                <div className="overlay">Read more</div>
-                            </div>
-                            <h4 className="title black">Braided Communications</h4>
-                            <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
-                        </div>
-                    </Link>
-                </motion.div>
-
-                <motion.div variants={animationItem}>
-                    <Link href="/langcat">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/langcat.jpg" className="block mb-3" alt="" />
-                                <div className="overlay">Read more</div>
-                            </div>
-                            <h4 className="title black">The Lang Cat</h4>
-                            <p className="description">Comparison tool for financial advisers choosing mortgage providers</p>
-                        </div>
-                    </Link>
-                </motion.div>
-            </motion.div>
-
-            <div className="mb-20">
-                <Link href="/">
-                    <div className="text-center text-lg cursor-pointer hover:scale-110 ease-in-out">👈 see the rest</div>
-                </Link>
-            </div>
         </div>
+
+        <DeepDiveAlt />
       </div>
       )
     }

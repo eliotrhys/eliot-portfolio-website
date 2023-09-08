@@ -17,6 +17,7 @@ import DeepDives from '../components/DeepDives'
 import AreasBlock from '../components/AreasBlock'
 import HeroBlock from '../components/HeroBlock'
 import HeroList from '../components/HeroList'
+import Mockups from '../components/Mockups'
 
 const Home: NextPage = () => {
 
@@ -60,11 +61,11 @@ const Home: NextPage = () => {
                     </h1>
                   </div>
                   <div className="text-white">
-                    <span className="text-lime-500 rounded-md border-lime-500 text-md hover:bg-lime-500 hover:text-white duration-100 ease-in-out cursor-pointer">🎨 Product UX/UI Designer</span>
+                    <span className="text-lime-500 rounded-md border-lime-500 text-md hover:bg-lime-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">🎨 Product UX/UI Designer</span>
                     <span className="mx-2">+</span>
-                    <span className="text-purple-500 rounded-md border-purple-500 text-md hover:bg-purple-500 hover:text-white duration-100 ease-in-out cursor-pointer">👨🏻‍💻 Front End Developer</span>
+                    <span className="text-purple-500 rounded-md border-purple-500 text-md hover:bg-purple-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">👨🏻‍💻 Front End Developer</span>
                     <span className="mx-2">+</span>
-                    <span className="text-amber-500 rounded-md border-amber-500 text-md hover:bg-amber-500 hover:text-white duration-100 ease-in-out cursor-pointer">🤩 Creative Genius</span>
+                    <span className="text-amber-500 rounded-md border-amber-500 text-md hover:bg-amber-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">🤩 Creative Genius</span>
                     </div>
                 </div>
               </div>
@@ -85,17 +86,26 @@ const Home: NextPage = () => {
             <div className="bg-white h-2 w-2 rounded-full mr-4"></div> 
             <div>
               <span>Check out my</span> 
-              <a href="https://github.com/eliotrhys" target="_blank" className="px-2 rounded-md border-sky-500 text-sky-500 duration-100 ease-in-out hover:bg-sky-500 relative hover:text-white hover:mx-2"><FontAwesomeIcon icon={faGithub} /> GitHub</a>for code, or my 
+              <a href="https://github.com/eliotrhys" target="_blank" className="px-2 rounded-md border-sky-500 text-sky-500 duration-100 ease-in-out hover:bg-sky-500 relative hover:text-white hover:mx-2"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
+              <span>for code, or my</span>
               <a href="" target="_blank" className="px-2 rounded-md dribbble duration-100 ease-in-out hover:mx-2"><FontAwesomeIcon icon={faDribbble} /> Dribbble</a> 
               <span>for design</span>
             </div>
           </div>
           
-          <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> My latest projects are <a href="https://www.triviamoji.com" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-red-500 text-red-500 hover:text-white hover:mx-2">Triviamoji <FontAwesomeIcon icon={faUpRightFromSquare} /></a> and <a href="https://www.lifereel.co.uk" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-green-500 text-green-500 hover:text-white hover:mx-2">The Lifereel Company <FontAwesomeIcon icon={faUpRightFromSquare} /></a></div>
+          <div className="mb-8 lg:mb-14 flex flex-wrap items-center">
+            <div className="bg-white h-2 w-2 rounded-full mr-4"></div> 
+            <span>My latest projects are</span>
+            <a href="https://www.triviamoji.com" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-red-500 text-red-500 hover:text-white hover:mx-2">Triviamoji <FontAwesomeIcon icon={faUpRightFromSquare} /></a> 
+            <span>and</span> 
+            <a href="https://www.lifereel.co.uk" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-green-500 text-green-500 hover:text-white hover:mx-2">The Lifereel Company <FontAwesomeIcon icon={faUpRightFromSquare} /></a>
+          </div>
 
           <div className="mb-8 lg:mb-14 flex flex-wrap items-center"><div className="bg-white h-2 w-2 rounded-full mr-4"></div> I also write <a href="https://twitter.com/optimistictales" target="_blank" className="px-2 rounded-md duration-100 ease-in-out hover:bg-violet-500 text-violet-500 hover:text-white hover:mx-2">🌱 optimistic sci-fi short stories</a></div>
         </div>
       </div>
+
+      <Mockups />
 
       <HeroList />
 
