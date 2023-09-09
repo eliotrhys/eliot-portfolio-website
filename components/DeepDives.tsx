@@ -46,7 +46,7 @@ const DeepDives = () => {
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
                                         <img src="/images/dives/triviamoji.jpg" className="block mb-3 rounded-md" alt="" />
-                                        <div className="overlay">Read more</div>
+                                        <div className="overlay rounded-md">Read more</div>
                                     </div>
                                     <h4 className="title">Triviamoji</h4>
                                     <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
@@ -59,7 +59,7 @@ const DeepDives = () => {
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
                                         <img src="/images/dives/promptblocks.jpg" className="block mb-3 rounded-md" alt="" />
-                                        <div className="overlay">Read more</div>
+                                        <div className="overlay rounded-md">Read more</div>
                                     </div>
                                     <h4 className="title">Promptblocks</h4>
                                     <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
@@ -72,7 +72,7 @@ const DeepDives = () => {
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
                                         <img src="/images/dives/braided.jpg" className="block mb-3 rounded-md" alt="" />
-                                        <div className="overlay">Read more</div>
+                                        <div className="overlay rounded-md">Read more</div>
                                     </div>
                                     <h4 className="title">Braided Communications</h4>
                                     <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
@@ -85,7 +85,7 @@ const DeepDives = () => {
                                 <div className="deep-dive-synopsis mb-10 md:mb-0">
                                     <div className="relative">
                                         <img src="/images/dives/featherbed.jpg" className="block mb-3 rounded-md" alt="" />
-                                        <div className="overlay">Read more</div>
+                                        <div className="overlay rounded-md">Read more</div>
                                     </div>
                                     <h4 className="title">Featherbed Tales</h4>
                                     <p className="description">Read your kids a bedtime story - wherever you are</p>
@@ -98,7 +98,7 @@ const DeepDives = () => {
                                 <div className="deep-dive-synopsis">
                                     <div className="relative">
                                         <img src="/images/dives/langcat.jpg" className="block mb-3 rounded-md" alt="" />
-                                        <div className="overlay">Read more</div>
+                                        <div className="overlay rounded-md">Read more</div>
                                     </div>
                                     <h4 className="title">The Lang Cat</h4>
                                     <p className="description">Comparison tool for financial advisers choosing mortgage providers</p>
