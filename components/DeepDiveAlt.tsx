@@ -67,7 +67,7 @@ const DeepDiveAlt = () => {
                 </motion.div>
 
                 <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
-                    <Link href="/braided">
+                    <Link href="/langcat">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
                                 <img src="/images/dives/langcat.jpg" className="block mb-3 rounded-md" alt="" />
@@ -80,7 +80,7 @@ const DeepDiveAlt = () => {
                 </motion.div>
 
                 <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
-                    <Link href="/braided">
+                    <Link href="/triviamoji">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
                                 <img src="/images/dives/triviamoji.jpg" className="block mb-3 rounded-md" alt="" />
@@ -93,14 +93,14 @@ const DeepDiveAlt = () => {
                 </motion.div>
 
                 <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
-                    <Link href="/braided">
+                    <Link href="/">
                         <div className="deep-dive-synopsis mb-10">
                             <div className="relative">
                                 <img src="/images/dives/promptblocks.jpg" className="block mb-3 rounded-md" alt="" />
                                 <div className="overlay rounded-md">Read more</div>
                             </div>
-                            <h4 className="title">Promptblocks</h4>
-                            <p className="description">A browser-based </p>
+                            <h4 className="title">Promptblocks (Coming Soon)</h4>
+                            <p className="description">Local Storage prompt-builder for Stable Diffusion and Midjourney</p>
                         </div>
                     </Link>
                 </motion.div>
@@ -108,7 +108,7 @@ const DeepDiveAlt = () => {
 
             <div className="mb-20">
                 <Link href="/">
-                    <div className="text-center text-lg cursor-pointer hover:scale-110 ease-in-out">👈 see the rest</div>
+                    <div className="text-center text-lg cursor-pointer duration-100 hover:scale-110 ease-in-out">👈 Go back</div>
                 </Link>
             </div>
         </div>

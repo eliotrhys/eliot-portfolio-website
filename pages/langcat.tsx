@@ -2,6 +2,8 @@ import { motion } from "framer-motion"
 import { NextPage } from "next"
 import Link from "next/link"
 import DeepDiveAlt from "../components/DeepDiveAlt"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
 const LangCat: NextPage = () => {
 
@@ -34,6 +36,13 @@ const LangCat: NextPage = () => {
                 <source src="https://eliot.eu-central-1.linodeobjects.com/langcat.webm" type="video/webm" />
                 <source src="https://eliot.eu-central-1.linodeobjects.com/langcat.mp4" type="video/mp4" />
             </video>
+
+            <div className="absolute top-4 left-4 lg:top-10 lg:left-10">
+                <Link href="/">
+                    <div className="ease-in-out duration-300 whitespace-nowrap hover:scale-110 glass text-sm mx-1 p-2 px-5 rounded my-1 cursor-pointer">
+                    <span className="mr-3"><FontAwesomeIcon icon={faArrowLeft} /></span>Go back</div>
+                </Link>
+            </div>
             
             <div className="full-page-video-content w-3/4 md:bg-cover md:bg-no-repeat md:bg-center md:h-screen flex items-center justify-center relative braided">
                 <motion.div
