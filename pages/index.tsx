@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                     <span className="mx-2">+</span>
                     <span className="text-purple-500 rounded-md border-purple-500 text-md hover:bg-purple-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">👨🏻‍💻 Front End Developer</span>
                     <span className="mx-2">+</span>
-                    <span className="text-amber-500 rounded-md border-amber-500 text-md hover:bg-amber-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">🤩 Creative Genius</span>
+                    <span className="text-amber-500 rounded-md border-amber-500 text-md hover:bg-amber-500 hover:text-white hover:px-2 duration-100 ease-in-out cursor-pointer">🤩 Creative</span>
                     </div>
                 </div>
               </div>
