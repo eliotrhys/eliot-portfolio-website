@@ -114,7 +114,7 @@ const Home: NextPage = () => {
             <span>Check out my</span> 
             <a href="https://github.com/eliotrhys" target="_blank" rel="noreferrer" className="px-2 rounded-md border-sky-500 text-sky-500 duration-100 ease-in-out hover:bg-sky-500 relative hover:text-white hover:mx-2"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
             <span>for code, or my</span>
-            <a href="" target="_blank" rel="noreferrer" className="px-2 rounded-md dribbble duration-100 ease-in-out hover:mx-2"><FontAwesomeIcon icon={faDribbble} /> Dribbble</a> 
+            <a href="https://dribbble.com/eliotrhys" target="_blank" rel="noreferrer" className="px-2 rounded-md dribbble duration-100 ease-in-out hover:mx-2"><FontAwesomeIcon icon={faDribbble} /> Dribbble</a> 
             <span>for design</span>
           </motion.div>
           
