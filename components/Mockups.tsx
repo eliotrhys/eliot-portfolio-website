@@ -106,6 +106,14 @@ const Mockups = () => {
                     <div className="text-white font-medium">The Odd Complex</div>
                 </div>
             </motion.li>
+            <motion.li className="list-item pr-4" variants={animationItem}>
+                <div className="">
+                    <div>
+                        <img src="/images/projects/new_mockups/asclepius.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit saturate-150" />
+                    </div>
+                    <div className="text-white font-medium">Asclepius Clinic</div>
+                </div>
+            </motion.li>
         </motion.ul>
     )
 }
