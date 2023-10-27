@@ -53,6 +53,14 @@ const Mockups = () => {
             <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
+                        <img src="/images/projects/new_mockups/prospera.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit" />
+                    </div>
+                    <div className="text-white font-medium">Prospera</div>
+                </div>
+            </motion.li>
+            <motion.li className="list-item" variants={animationItem}>
+                <div className="">
+                    <div>
                         <img src="/images/projects/new_mockups/triviamoji.png" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit" />
                     </div>
                     <div className="text-white font-medium">Triviamoji</div>
@@ -64,6 +72,14 @@ const Mockups = () => {
                         <img src="/images/projects/new_mockups/goatcalculator.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit saturate-150" />
                     </div>
                     <div className="text-white font-medium">GOAT Calculator</div>
+                </div>
+            </motion.li>
+            <motion.li className="list-item" variants={animationItem}>
+                <div className="">
+                    <div>
+                        <img src="/images/projects/new_mockups/reekie.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit" />
+                    </div>
+                    <div className="text-white font-medium">Reekie</div>
                 </div>
             </motion.li>
             <motion.li className="list-item" variants={animationItem}>
