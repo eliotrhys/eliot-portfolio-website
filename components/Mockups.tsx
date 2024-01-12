@@ -58,14 +58,14 @@ const Mockups = () => {
                     <div className="text-white font-medium">Prospera</div>
                 </div>
             </motion.li>
-            <motion.li className="list-item" variants={animationItem}>
+            {/* <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
                         <img src="/images/projects/new_mockups/securiforce_dash.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit" />
                     </div>
                     <div className="text-white font-medium">Securiforce</div>
                 </div>
-            </motion.li>
+            </motion.li> */}
             <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
@@ -98,14 +98,14 @@ const Mockups = () => {
                     <div className="text-white font-medium">Rehumaning</div>
                 </div>
             </motion.li>
-            <motion.li className="list-item" variants={animationItem}>
+            {/* <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
                         <img src="/images/projects/new_mockups/securiforce_spider.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit" />
                     </div>
                     <div className="text-white font-medium">Securiforce</div>
                 </div>
-            </motion.li>
+            </motion.li> */}
             <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
@@ -114,14 +114,14 @@ const Mockups = () => {
                     <div className="text-white font-medium">WSB Tendie Rush Game</div>
                 </div>
             </motion.li>
-            <motion.li className="list-item" variants={animationItem}>
+            {/* <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
                         <img src="/images/projects/new_mockups/pdtracker.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit saturate-150" />
                     </div>
                     <div className="text-white font-medium">PD Tracker</div>
                 </div>
-            </motion.li>
+            </motion.li> */}
             <motion.li className="list-item" variants={animationItem}>
                 <div className="">
                     <div>
@@ -138,14 +138,14 @@ const Mockups = () => {
                     <div className="text-white font-medium">The Odd Complex</div>
                 </div>
             </motion.li>
-            <motion.li className="list-item pr-4" variants={animationItem}>
+            {/* <motion.li className="list-item pr-4" variants={animationItem}>
                 <div className="">
                     <div>
                         <img src="/images/projects/new_mockups/asclepius.jpg" alt="" className="rounded-md mb-4 h-56 md:h-96 xl:h-[38rem] max-w-fit saturate-150" />
                     </div>
                     <div className="text-white font-medium">Asclepius Clinic</div>
                 </div>
-            </motion.li>
+            </motion.li> */}
         </motion.ul>
     )
 }

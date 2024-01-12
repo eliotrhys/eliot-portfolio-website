@@ -40,45 +40,6 @@ const DeepDiveAlt = () => {
                 whileInView="showing"
                 viewport={{ once: true }}
             >
-                <motion.div variants={animationItem} className="md:col-span-3 lg:col-span-1">
-                    <Link href="/featherbed">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/featherbed.jpg" className="block mb-3 rounded-md" alt="" />
-                                <div className="overlay rounded-md">Read more</div>
-                            </div>
-                            <h4 className="title">Featherbed Tales</h4>
-                            <p className="description">Read your kids a bedtime story - wherever you are</p>
-                        </div>
-                    </Link>
-                </motion.div>
-
-                <motion.div variants={animationItem} className="md:col-span-3 lg:col-span-1">
-                    <Link href="/braided">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/braided.jpg" className="block mb-3 rounded-md" alt="" />
-                                <div className="overlay rounded-md">Read more</div>
-                            </div>
-                            <h4 className="title">Braided Communications</h4>
-                            <p className="description">A psychology-based communications tool for Astronauts en-route to Mars</p>
-                        </div>
-                    </Link>
-                </motion.div>
-
-                <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
-                    <Link href="/langcat">
-                        <div className="deep-dive-synopsis mb-10">
-                            <div className="relative">
-                                <img src="/images/dives/langcat.jpg" className="block mb-3 rounded-md" alt="" />
-                                <div className="overlay rounded-md">Read more</div>
-                            </div>
-                            <h4 className="title">The Lang Cat</h4>
-                            <p className="description">Comparison tool for financial advisers choosing mortgage providers</p>
-                        </div>
-                    </Link>
-                </motion.div>
-
                 <motion.div variants={animationItem} className="md:col-span-2 lg:col-span-1">
                     <Link href="/triviamoji">
                         <div className="deep-dive-synopsis mb-10">
