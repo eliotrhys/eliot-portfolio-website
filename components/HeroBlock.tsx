@@ -34,7 +34,7 @@ const HeroBlock = () => {
           y: 0,
           rotate: -6,
           transition: {
-            type: "spring",
+            type: "spring" as const,
             bounce: 0.4,
             duration: 0.8
           }
@@ -49,7 +49,7 @@ const HeroBlock = () => {
           y: 0,
           rotate: 6,
           transition: {
-            type: "spring",
+            type: "spring" as const,
             bounce: 0.4,
             duration: 0.8
           }

@@ -32,7 +32,7 @@ const PersonalStuff = () => {
             scale: 1,
             transition: {
                 duration: 0.3,
-                type: "spring", 
+                type: "spring" as const,
                 bounce: 0.4
             }
         }
@@ -156,7 +156,7 @@ const PersonalStuff = () => {
 
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div className="rotate-6">
-                            <Image src={cryptoHarry} />
+                            <Image src={cryptoHarry} alt="Crypto Harry illustration" />
                         </div>
                     </motion.div>
                 </motion.div>
@@ -172,7 +172,7 @@ const PersonalStuff = () => {
                 >
                     <motion.div variants={animationItem} className="flex justify-center items-center">
                         <div className="-rotate-6">
-                            <Image src={remoteWork} />
+                            <Image src={remoteWork} alt="Remote working stock photo" />
                         </div>
                     </motion.div>
 
